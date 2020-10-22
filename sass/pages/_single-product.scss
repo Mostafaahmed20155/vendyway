@@ -1,0 +1,119 @@
+.product-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .product-img-container {
+    width: 100%;
+    height: 32.5rem;
+    background-color: saddlebrown;
+    margin-top: 7rem;
+  }
+  .product-picture {
+    width: 100%;
+    height: 100%;
+  }
+  .product-summary {
+    padding: 1.5rem;
+    .product-name {
+      @include Montserrat(1.5rem, 600);
+      line-height: 2.5rem;
+      margin-top: 1rem;
+    }
+    hr {
+      width: 25%;
+      margin-top: 1.5rem;
+      margin-bottom: 2rem;
+      height: 0.3rem;
+      border: 0.3rem solid $color-tertairy;
+      border-radius: 1rem;
+    }
+    .description-title {
+      @include Montserrat(1.2rem, 600);
+      margin-bottom: 1.5rem;
+    }
+    .product-description {
+      @include Montserrat(1.2rem, 400);
+      color: $color-text;
+      line-height: 2.5rem;
+    }
+    .add-instructions-title {
+      @include Montserrat(1.2rem, 600);
+      margin-bottom: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .instruction-form {
+      width: 100%;
+      .instructions {
+        width: 100%;
+        background-color: $text-area-color;
+        border: none;
+        border-radius: 1.5rem;
+        padding: 1.5rem;
+        resize: none;
+        @include Montserrat(1.2rem, 500);
+        &:focus {
+          // outline: 0.1rem solid black;
+          outline: none;
+        }
+      }
+    }
+    .product-qty-price {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 1.8rem;
+      .product-qty {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        .qty-title {
+          @include Montserrat(1.3rem, 600);
+          margin-bottom: 1.5rem;
+        }
+        .qty-counter-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            span {
+                @include Montserrat(1.5rem, 500);
+                margin: 0 1rem;
+            }
+        }
+      }
+      .vr {
+          height: 5rem;
+          width: 0.1rem;
+          background-color: #676767;
+      }
+      .product-price {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          
+          .price-title {
+            @include Montserrat(1.3rem, 600);
+            margin-bottom: 1.5rem;
+          }
+          .price-value {
+            @include Montserrat(1.5rem, 600);
+            color: $color-text;  
+        }
+      }
+    }
+    .place-order {
+        width: 100%;
+        height: 5rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+        background-color: $color-tertairy;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        @include Montserrat(1.5rem, 600);
+        &:hover {
+            background-color: $headers-color;
+            color: $color-primary;
+            transition: all 0.2s;
+        }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+.cart {
+  margin-top: 8rem;
+  padding: 1.5rem;
+  &__order-items {
+    .title {
+      @include Montserrat(1.5rem, 600);
+    }
+    .cart-product-item {
+      width: 100%;
+      height: 15rem;
+      border-radius: 1rem;
+      box-shadow: 0 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
+      margin-top: 2rem;
+      display: flex;
+      align-items: center;
+      padding: 1rem;
+      position: relative;
+      &:not(:last-of-type) {
+        margin-bottom: 1.5rem;
+      }
+      .product-item {
+        &__picture-container {
+          width: 14rem;
+          height: 13rem;
+        }
+        &-picture {
+          border-radius: 1rem;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .product-info {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5rem;
+        .category-title {
+          @include Montserrat(1rem, 600);
+          color: #b3b3b3;
+          margin-bottom: 1rem;
+        }
+        .product-name {
+          @include Montserrat(1.2rem, 600);
+          margin-bottom: 1rem;
+        }
+        .product-price {
+          color: $color-text;
+          @include Montserrat(1.2rem, 600);
+          margin-bottom: 1rem;
+        }
+        .delete-icon {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          cursor: pointer;
+        }
+        .qty-container {
+          display: flex;
+          align-items: center;
+          .qty-value {
+            @include Montserrat(1.5rem, 500);
+            margin: 0 1rem;
+          }
+        }
+      }
+    }
+  }
+  .promo-code-container {
+    margin-top: 2rem;
+    width: 100%;
+    .promo-code__header {
+      @include Montserrat(1.5rem, 600);
+      margin-bottom: 2rem;
+    }
+    .promo-code {
+      width: 100%;
+      .input-container {
+        width: 100%;
+        position: relative;
+        #promo-code {
+          width: 100%;
+          height: 5rem;
+          border-radius: 1rem;
+          border: none;
+          box-shadow: 0 0.6rem 3rem rgba($color: #000000, $alpha: 0.1);
+          @include Montserrat(1.5rem, 600);
+          color: #c2b6c5;
+          padding: 1.5rem;
+          &:focus {
+            outline: none;
+          }
+        }
+        .promo-sbt {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 25%;
+          height: 100%;
+          border-radius: 0 1rem 1rem 0;
+          border: none;
+          background-color: $color-tertairy;
+          @include Montserrat(1.5rem, 600);
+        }
+      }
+    }
+  }
+
+}

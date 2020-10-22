@@ -1,0 +1,21 @@
+.dotted-line {
+    width: 100%;
+    min-height: 1rem;
+    // background-color: saddlebrown;   
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    .dot {
+        width: 2rem;
+        height: 1px;
+        border-radius: 1rem;
+        background-color: #EAEAEA;
+        &:not(:last-child) {
+            margin-right: 1rem;
+        }
+    }
+}
+
+
+.margin-top-md {
+    margin-top: 1.5rem;
+}

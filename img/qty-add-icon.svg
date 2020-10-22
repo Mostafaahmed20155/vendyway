@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <g id="qty-add-icon" transform="translate(-37 -687)">
+    <circle id="Ellipse_2" data-name="Ellipse 2" cx="8" cy="8" r="8" transform="translate(37 687)" fill="#faf7f0"/>
+    <path id="Union_1" data-name="Union 1" d="M3.1,7.1V4.9H.9a.9.9,0,1,1,0-1.8H3.1V.9A.9.9,0,1,1,4.9.9V3.1H7.1a.9.9,0,1,1,0,1.8H4.9V7.1a.9.9,0,1,1-1.8,0Z" transform="translate(41 691)" fill="#361041"/>
+  </g>
+</svg>

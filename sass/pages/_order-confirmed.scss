@@ -1,0 +1,37 @@
+.order-container {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__pic {
+    margin-top: 10rem;
+  }
+  .order-confirmed-title {
+    @include Montserrat(2rem, 600);
+    margin-top: 5rem;
+    margin-bottom: 2.5rem;
+}
+  .order-confirmation {
+    width: 100%;
+    input {
+      width: 100%;
+      height: 6rem;
+      text-align: center;
+      @include Poppins(2rem, 600);
+      letter-spacing: 1.25rem;
+      color: #86708d;
+      border: dashed 0.05rem;
+      border-radius: 0.5rem;
+    }
+  }
+  .order-text {
+    @include Poppins(1.5rem, 500);
+    text-align: center;
+    color: #676767;
+    margin-top: 2.5rem;
+  }
+  .order-confirmed-btn {
+      margin-top: 2.5rem;
+  }
+}

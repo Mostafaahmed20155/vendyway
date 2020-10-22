@@ -1,0 +1,60 @@
+.checkout-info {
+ margin-top: 8rem;
+ width: 100%;
+ height: 90vh;   
+//  background-color: navy;
+ padding: 1.5rem;
+ .intro-paragraph {
+     @include Montserrat(1.5rem,600);
+     color: #9A87A0;
+ }
+ .contact-information {
+     width: 100%;
+     margin-top: 2rem;
+     input {
+         width: 100%;
+         padding: 1.5rem;
+         border-radius: 0.5rem;
+         border: 0.02rem solid #707070;
+         margin-top: 1.3rem;
+         margin-bottom: 2rem;
+         @include Montserrat(1.3rem, 600);
+         color: #C2B7C6;
+         &:focus {
+             outline: solid 1px;
+             transition: all .2s;
+         }
+     }
+     .inputs-cont {
+         display: flex;
+     }
+     .card-inputs {
+         width: 100%;
+     }
+     .exp-date {
+         width: 90%;
+     }
+     .input-container {
+         display: flex;
+         flex-direction: column;
+     }
+     label {
+         @include Montserrat(1.3rem, 600);
+     }
+     .checkout-btn {
+        width: 100%;
+        height: 5rem;
+        border: none;
+        border-radius: 1rem;
+        background-color: $color-secondary;
+        margin-top: 2.5rem;
+        @include Montserrat(1.5rem,600);
+        cursor: pointer;
+        &:hover {
+            background-color: #361041;
+            color: $color-primary;
+            transition: all .2s;
+        }
+    }
+ }
+}

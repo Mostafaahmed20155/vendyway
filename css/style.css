@@ -38,6 +38,9 @@ body {
 .margin-top-md {
   margin-top: 1.5rem; }
 
+.margin-right-md {
+  margin-right: 1.5rem; }
+
 .total-info {
   display: flex;
   justify-content: space-between;
@@ -69,55 +72,71 @@ body {
     color: #ffffff;
     transition: all .2s; }
 
+.finish-selection-btn {
+  width: 100%;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: #F54DA4;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 2.5rem; }
+  .finish-selection-btn:hover {
+    background-color: #F8DCDB;
+    color: black;
+    transition: all .3s; }
+
 .category:not(:first-of-type) {
   margin-top: 1.5rem; }
 
-.category__products {
-  margin-top: 3rem; }
-  .category__products-card {
-    width: 15rem;
-    height: 24rem;
-    border-radius: 1rem;
-    background-color: #ffffff;
-    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+.category__products-card {
+  width: 15rem !important;
+  height: 24rem;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  padding: 1rem; }
+  .category__products-card:not(:last-child) {
+    margin-right: 1.5rem; }
+  .category__products-card .product-img__container {
+    width: 100%;
+    height: 12rem; }
+    .category__products-card .product-img__container .product-img {
+      border-radius: 1rem;
+      width: 100%;
+      height: 100%; }
+  .category__products-card .product-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 1rem; }
+  .category__products-card .add-to-cart {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    padding: 1rem; }
-    .category__products-card:not(:last-child) {
-      margin-right: 1.5rem; }
-    .category__products-card .product-img__container {
-      width: 100%;
-      height: 12rem; }
-      .category__products-card .product-img__container .product-img {
-        border-radius: 1rem;
-        width: 100%;
-        height: 100%; }
-    .category__products-card .product-name {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.2rem;
-      font-weight: 600;
-      margin-top: 1rem; }
-    .category__products-card .add-to-cart {
-      width: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.4rem 1.2rem;
-      border: solid 0;
-      border-radius: 0.5rem;
-      margin-top: auto;
-      font-family: 'Montserrat', sans-serif;
-      font-size: 1.4rem;
-      font-weight: 600;
-      color: #F54DA4;
-      cursor: pointer;
-      outline: none; }
-      .category__products-card .add-to-cart:hover {
-        background-color: #F8DCDB;
-        transition: all .2s;
-        color: black; }
-    .category__products-card .add-icon {
-      margin-right: 1rem; }
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 1.2rem;
+    border: solid 0;
+    border-radius: 0.5rem;
+    margin-top: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #F54DA4;
+    cursor: pointer;
+    outline: none; }
+    .category__products-card .add-to-cart:hover {
+      background-color: #F8DCDB;
+      transition: all .2s;
+      color: black; }
+  .category__products-card .add-icon {
+    margin-right: 1rem;
+    width: 10% !important; }
 
 .header {
   width: 100%;
@@ -125,9 +144,10 @@ body {
   .header .nav-bar {
     width: 100%;
     display: flex;
+    align-items: center;
     padding: 1rem 1.5rem;
     position: fixed;
-    width: 37.5rem !important;
+    width: 45rem !important;
     z-index: 10000;
     background-color: #ffffff;
     box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08); }
@@ -135,7 +155,10 @@ body {
       width: 10rem;
       margin: 0 auto; }
     .header .nav-bar .search-icon {
-      margin-right: 2rem; }
+      margin-right: 2rem;
+      cursor: pointer; }
+    .header .nav-bar .side-bar__button {
+      cursor: pointer; }
 
 .non-home-nav {
   height: 7.5rem;
@@ -147,19 +170,70 @@ body {
   font-weight: 600;
   box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
   position: fixed;
-  width: 37.5rem !important;
+  width: 45rem !important;
   z-index: 10000;
   background-color: #ffffff; }
-  .non-home-nav .back-icon {
-    margin-right: auto; }
   .non-home-nav .page-title {
-    margin-right: auto; }
+    margin-right: auto;
+    margin-left: auto; }
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0.5rem 0 3rem rgba(0, 0, 0, 0.08);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px; }
+
+.sidenav a {
+  transition: 0.3s; }
+  .sidenav a:not(:last-of-type) {
+    margin-bottom: 3.5rem; }
+  .sidenav a .side-bar__selection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5rem; }
+    .sidenav a .side-bar__selection .selection-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #000000;
+      margin-left: 3.5rem; }
+
+.enable-one-tapping {
+  margin-left: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 1.5rem; }
+
+.one-taping-feature {
+  margin-left: 5rem; }
+  .one-taping-feature:not(:last-of-type) {
+    margin-bottom: 2rem; }
+
+.sidenav a:hover {
+  color: #f1f1f1; }
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
 
 .main {
   width: 100%;
   display: flex; }
   .main__app-section {
-    width: 37.5rem;
+    width: 45rem;
     min-height: 20rem; }
   .main__landing-picture {
     width: 100%;
@@ -179,6 +253,54 @@ body {
     height: 100%;
     border-radius: 1.5rem; }
 
+.delievery-title, .car-pickup-title {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600; }
+
+.area, .branch {
+  display: flex;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .area .area-title, .area .branch-title, .branch .area-title, .branch .branch-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400; }
+  .area .area-choice, .area .branch-choice, .branch .area-choice, .branch .branch-choice {
+    display: flex;
+    align-items: center;
+    color: #F54DA4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .area .arrow-right, .branch .arrow-right {
+    margin-left: 2rem; }
+
+.estimated-time {
+  display: flex;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .estimated-time .time-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400; }
+  .estimated-time .time-choice {
+    display: flex;
+    align-items: center;
+    color: #F54DA4;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .estimated-time .arrow-right {
+    margin-left: 2rem; }
+
 .options {
   width: 100%;
   min-height: 10rem;
@@ -187,7 +309,7 @@ body {
   align-items: center;
   padding: 1.5rem; }
   .options__delievery, .options__car-pick-up {
-    width: 16rem;
+    width: 20rem;
     height: 9.5rem;
     border-radius: 0.5rem;
     display: flex;
@@ -233,6 +355,9 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 7rem; }
+
+.clear-fix {
+  width: 19rem !important; }
 
 .product-details {
   display: flex;
@@ -540,3 +665,450 @@ body {
     margin-top: 2.5rem; }
   .order-container .order-confirmed-btn {
     margin-top: 2.5rem; }
+  .order-container a {
+    width: 100%; }
+
+.categories-container {
+  width: 100%;
+  margin-top: 6.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem; }
+  .categories-container__card {
+    width: 19rem;
+    height: 19.5rem;
+    background-color: navy;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    position: relative; }
+    .categories-container__card .category-picture {
+      border-radius: 0.5rem;
+      width: 100%;
+      height: 100%; }
+    .categories-container__card .category-title {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.25);
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 0.5rem 0 0.5rem 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 400; }
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8rem;
+  padding: 1.5rem; }
+  .search-container .search-form {
+    width: 100%; }
+    .search-container .search-form .search-bar {
+      width: 100%;
+      position: relative; }
+      .search-container .search-form .search-bar input {
+        width: 100%;
+        height: 4rem;
+        background-color: #F8DCDB;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        padding-left: 4rem;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600; }
+        .search-container .search-form .search-bar input:focus {
+          outline: none;
+          box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2); }
+      .search-container .search-form .search-bar .search-icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 4%;
+        transition: all .3s; }
+  .search-container .search-results {
+    width: 100%; }
+    .search-container .search-results .result-product-card {
+      width: 100%;
+      height: 14.5rem;
+      background-color: #ffffff;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      margin-top: 1.5rem;
+      display: flex;
+      align-items: center;
+      padding: 1rem; }
+      .search-container .search-results .result-product-card .product-picture-cont {
+        width: 14rem;
+        height: 12.2rem;
+        background-color: navy;
+        margin-right: 1.5rem; }
+        .search-container .search-results .result-product-card .product-picture-cont .result-prod-pic {
+          border-radius: 0.5rem;
+          width: 100%;
+          height: 100%; }
+      .search-container .search-results .result-product-card .result-product-info {
+        display: flex;
+        flex-direction: column;
+        flex: 1; }
+        .search-container .search-results .result-product-card .result-product-info .category-title {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1rem;
+          font-weight: 600;
+          color: #b3b3b3;
+          margin-bottom: 1rem; }
+        .search-container .search-results .result-product-card .result-product-info .product-name {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.2rem;
+          font-weight: 600;
+          margin-bottom: 1rem; }
+        .search-container .search-results .result-product-card .result-product-info .product-price {
+          color: #F54DA4;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.2rem;
+          font-weight: 600;
+          margin-bottom: 1rem; }
+        .search-container .search-results .result-product-card .result-product-info .add-to-cart {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 0.4rem 1.2rem;
+          border: solid 0;
+          border-radius: 0.5rem;
+          margin-top: auto;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.4rem;
+          font-weight: 600;
+          color: #F54DA4;
+          cursor: pointer;
+          outline: none; }
+          .search-container .search-results .result-product-card .result-product-info .add-to-cart .add-icon {
+            margin-right: 1.5rem; }
+          .search-container .search-results .result-product-card .result-product-info .add-to-cart:hover {
+            background-color: #F8DCDB;
+            transition: all .2s;
+            color: black; }
+
+.branches-container {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 7rem; }
+  .branches-container__single-branch {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center; }
+    .branches-container__single-branch::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1.5rem;
+      background-color: #F8DCDB;
+      border-radius: 0.5rem 0 0 0.5rem; }
+    .branches-container__single-branch .branch-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-left: 4rem; }
+    .branches-container__single-branch:hover {
+      background-color: #FAF7F0;
+      transition: all .3s; }
+
+.branches-container {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 7rem; }
+  .branches-container__single-branch {
+    width: 100%;
+    height: 4rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center; }
+    .branches-container__single-branch::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1.5rem;
+      background-color: #F8DCDB;
+      border-radius: 0.5rem 0 0 0.5rem; }
+    .branches-container__single-branch .branch-name {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      margin-left: 4rem; }
+    .branches-container__single-branch:hover {
+      background-color: #FAF7F0;
+      transition: all .3s; }
+
+.branch-name-details {
+  width: 100%;
+  margin-top: 8rem;
+  padding: 1.5rem; }
+  .branch-name-details .branch-location {
+    width: 100%;
+    height: 20rem; }
+    .branch-name-details .branch-location iframe {
+      border-radius: 0.5rem; }
+  .branch-name-details .branch-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .branch-name-details .branch-info .opening-info {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin-top: 2rem;
+      justify-content: center; }
+      .branch-name-details .branch-info .opening-info .open-sign {
+        margin-right: 3rem; }
+      .branch-name-details .branch-info .opening-info .working-hours {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+        color: #BCBCBC; }
+        .branch-name-details .branch-info .opening-info .working-hours span {
+          color: black;
+          font-family: 'Poppins', sans-serif;
+          font-size: 2rem;
+          font-weight: 600; }
+    .branch-name-details .branch-info .working-hours-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      width: 100%; }
+      .branch-name-details .branch-info .working-hours-container .working-days, .branch-name-details .branch-info .working-hours-container .opening-days {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 500; }
+      .branch-name-details .branch-info .working-hours-container .opening-days {
+        color: #BCBCBC;
+        margin-left: 3rem; }
+    .branch-name-details .branch-info .branch-buttons {
+      display: flex;
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 2rem; }
+      .branch-name-details .branch-info .branch-buttons .branch-single-button {
+        width: 14rem;
+        height: 4rem;
+        border-radius: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 500;
+        border: none; }
+        .branch-name-details .branch-info .branch-buttons .branch-single-button:hover {
+          background-color: #F8DCDB;
+          transition: all .2s; }
+      .branch-name-details .branch-info .branch-buttons .btn-icon {
+        margin-right: 2rem; }
+      .branch-name-details .branch-info .branch-buttons .call {
+        background-color: #F8DCDB; }
+        .branch-name-details .branch-info .branch-buttons .call:hover {
+          color: #ffffff;
+          background-color: #F54DA4;
+          transition: all .3s; }
+      .branch-name-details .branch-info .branch-buttons .direction {
+        background-color: #F54DA4;
+        color: #ffffff; }
+
+.delievery-time {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 7rem; }
+  .delievery-time__option {
+    width: 100%;
+    height: 6rem;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    position: relative;
+    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .delievery-time__option:last-of-type {
+      margin-top: 5rem; }
+    .delievery-time__option::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1.5rem;
+      background-color: #F8DCDB;
+      border-radius: 0.5rem 0 0 0.5rem; }
+    .delievery-time__option .delievery-option {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 600; }
+    .delievery-time__option:hover {
+      background-color: #FAF7F0;
+      transition: all .3s; }
+
+.search-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8rem;
+  padding: 1.5rem; }
+  .search-container .search-form {
+    width: 100%; }
+    .search-container .search-form .search-bar {
+      width: 100%;
+      position: relative; }
+      .search-container .search-form .search-bar input {
+        width: 100%;
+        height: 4rem;
+        background-color: #F8DCDB;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        padding-left: 4rem;
+        border: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600; }
+        .search-container .search-form .search-bar input:focus {
+          outline: none;
+          box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2); }
+      .search-container .search-form .search-bar .search-icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 4%;
+        transition: all .3s; }
+  .search-container .cities-container {
+    width: 100%; }
+    .search-container .cities-container .city-label {
+      width: 100%;
+      min-height: 5rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      cursor: pointer; }
+      .search-container .cities-container .city-label .city-name-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center; }
+      .search-container .cities-container .city-label .city-name {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600; }
+      .search-container .cities-container .city-label .display {
+        display: flex !important; }
+      .search-container .cities-container .city-label .min-cities-options {
+        display: none;
+        flex-direction: column; }
+        .search-container .cities-container .city-label .min-cities-options .city-option {
+          color: black;
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.3rem;
+          font-weight: 400;
+          margin-top: 2rem;
+          padding: 1.5rem;
+          border-radius: 0.5rem; }
+          .search-container .cities-container .city-label .min-cities-options .city-option:hover {
+            background-color: #F8DCDB;
+            transition: all .3s; }
+
+.schedule-time {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
+  padding: 1.5rem; }
+  .schedule-time__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .schedule-time .time-selections {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem; }
+    .schedule-time .time-selections .time-selection {
+      width: 100%;
+      height: 5rem;
+      border: none;
+      background-color: #FAF7F0;
+      cursor: pointer;
+      margin-top: 2rem;
+      border-radius: 0.5rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 400; }
+      .schedule-time .time-selections .time-selection:hover {
+        background-color: #F8DCDB;
+        transition: all 0.3s; }
+  .schedule-time .dates-selections {
+    display: flex;
+    width: 100%;
+    margin-top: 1.5rem; }
+    .schedule-time .dates-selections .date-selection {
+      width: 18rem;
+      height: 5rem;
+      margin-right: 1.5rem;
+      border-radius: 0.5rem;
+      background-color: #FAF7F0;
+      display: flex; }
+      .schedule-time .dates-selections .date-selection :not(:first-of-type) {
+        margin-left: 1.5rem; }
+      .schedule-time .dates-selections .date-selection .left-container {
+        flex: 0.33;
+        background-color: #F8DCDB;
+        border-radius: 0.5rem 0 0 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; }
+        .schedule-time .dates-selections .date-selection .left-container .day-no,
+        .schedule-time .dates-selections .date-selection .left-container .month {
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.5rem;
+          font-weight: 400; }
+      .schedule-time .dates-selections .date-selection .right-container {
+        flex: 0.67;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+        .schedule-time .dates-selections .date-selection .right-container .day-name {
+          font-family: 'Poppins', sans-serif;
+          font-size: 1.5rem;
+          font-weight: 500; }
+
+.owl-item {
+  width: 15rem !important;
+  margin-right: 2rem; }
+
+.owl-stage {
+  width: 100% !important;
+  height: 27rem;
+  display: flex;
+  align-items: center; }
+
+.owl-stage-outer {
+  width: 100%; }

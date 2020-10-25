@@ -1,41 +1,110 @@
 .header {
+  width: 100%;
+  background-color: $color-primary; //REMOVE LATER
+  .nav-bar {
     width: 100%;
-    background-color: $color-primary; //REMOVE LATER
-    .nav-bar {
-        width: 100%;
-        display: flex;
-        padding: 1rem 1.5rem;
-        position: fixed; // MOBILE VERSION ONLY
-        width: 37.5rem !important;
-        z-index: 10000;
-        background-color: $color-primary;
-        box-shadow: 0 0.6rem 3rem rgba(0,0,0,0.08);    
-        .store-logo {
-            width: 10rem;
-            margin: 0 auto;
-        }
-        .search-icon {
-            margin-right: 2rem;
-        }
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    position: fixed; // MOBILE VERSION ONLY
+    width: 45rem !important;
+    z-index: 10000;
+    background-color: $color-primary;
+    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+    .store-logo {
+      width: 10rem;
+      margin: 0 auto;
     }
+    .search-icon {
+      margin-right: 2rem;
+      cursor: pointer;
+    }
+    .side-bar__button {
+      cursor: pointer;
+    }
+  }
 }
 
 .non-home-nav {
-    height: 7.5rem;
-    // background-color: navy;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .back-icon {
-        margin-right: auto;
+  height: 7.5rem;
+  // background-color: navy;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+//   .back-icon {
+//     // margin-right: auto;
+//   }
+  .page-title {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @include Montserrat(1.5rem, 600);
+  box-shadow: 0 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
+  position: fixed; // MOBILE VERSION ONLY
+  width: 45rem !important;
+  z-index: 10000;
+  background-color: $color-primary;
+}
+
+//SIDE BAR
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  top: 0;
+  left: 0;
+  background-color: $color-primary;
+  box-shadow: 0.5rem 0 3rem rgba(0, 0, 0, 0.08);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  &:not(:last-of-type) {
+      margin-bottom: 3.5rem;
+  }
+  transition: 0.3s;
+  .side-bar {
+      &__selection {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-left: 5rem;
+          .selection-title {
+            @include Montserrat(1.3rem, 600);
+            color: #000000;
+            margin-left: 3.5rem;
+          }
+      }
+  }
+}
+
+.enable-one-tapping {
+    margin-left: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 1.5rem;
+}
+
+.one-taping-feature {
+    margin-left: 5rem;
+    &:not(:last-of-type) {
+        margin-bottom: 2rem;
     }
-    .page-title {
-        margin-right: auto;
-    }
-    @include Montserrat(1.5rem, 600);
-    box-shadow: 0 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
-    position: fixed; // MOBILE VERSION ONLY
-    width: 37.5rem !important;
-    z-index: 10000;
-    background-color: $color-primary;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }

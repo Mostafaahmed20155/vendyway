@@ -10,6 +10,55 @@
     }
 }
 
+.delievery-title, .car-pickup-title {
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    @include Montserrat(1.5rem, 600);
+}
+
+.area, .branch {
+    display: flex;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .area-title, .branch-title {
+        @include Poppins(1.5rem, 400);
+    }
+    .area-choice, .branch-choice {
+        display: flex;
+        align-items: center;
+        color: $color-text;
+        @include Poppins(1.5rem, 600);
+    }
+    .arrow-right {
+        margin-left: 2rem;
+    }
+}
+
+.estimated-time {
+    display: flex;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .time-title {
+        @include Poppins(1.5rem, 400);
+    }
+    .time-choice {
+        display: flex;
+        align-items: center;
+        color: $color-text;
+        @include Poppins(1.5rem, 600);
+    }
+    .arrow-right {
+        margin-left: 2rem;
+    }
+}
+
+
+
 .options {
     width: 100%;
     min-height: 10rem;
@@ -19,7 +68,7 @@
     align-items: center;
     padding: 1.5rem;
     &__delievery , &__car-pick-up {
-        width: 16rem;
+        width: 20rem;
         height: 9.5rem;
         // background-color: yellowgreen; //REMOVE LATER
         border-radius: 0.5rem;

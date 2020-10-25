@@ -1,7 +1,8 @@
-$('#owl-carousel').owlCarousel({
-    loop: true,
-    margin: 30,
-    dots: true,
-    nav: true,
-    items: 2,
-})
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "34.5rem";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}

@@ -1,0 +1,85 @@
+.branch-name-details {
+    width: 100%;
+    margin-top: 8rem;
+    padding: 1.5rem;
+    .branch-location {
+        width: 100%;
+        height: 20rem;
+        iframe {
+            border-radius: 0.5rem;
+        }
+    }
+    .branch-info {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .opening-info {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-top: 2rem;
+            justify-content: center;
+            .open-sign {
+                margin-right: 3rem;
+            }
+            .working-hours {
+                @include Poppins(1.6rem, 500);
+                color: $faded-text;
+                span {
+                    color: black;
+                    @include Poppins(2rem,600)
+                }
+            }
+        }
+        .working-hours-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+            width: 100%;
+            .working-days, .opening-days {
+                @include Poppins(1.4rem,500);
+            }
+            .opening-days {
+                color: $faded-text;
+                margin-left: 3rem;
+            }
+        }
+        .branch-buttons {
+            display: flex;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+            .branch-single-button {
+                width: 14rem;
+                height: 4rem;
+                border-radius: 0.5rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                @include Poppins(1.4rem,500);
+                border: none;
+                &:hover {
+                    background-color: $color-tertairy;
+                    transition: all .2s;
+                }
+            }
+            .btn-icon {
+                margin-right: 2rem;       
+            }
+            .call {
+                background-color: $color-tertairy;
+                &:hover {
+                    color: $color-primary;
+                    background-color: $color-text;
+                    transition: all .3s;
+                }
+            }
+            .direction {
+                background-color: $color-text;
+                color: $color-primary;
+            }
+        }
+    }
+}

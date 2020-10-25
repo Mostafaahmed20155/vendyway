@@ -7,8 +7,7 @@
 
 html {
   font-size: 62.5%;
-  scroll-behavior: smooth;
-  overflow-x: hidden; }
+  scroll-behavior: smooth; }
 
 body {
   box-sizing: border-box; }
@@ -101,8 +100,6 @@ body {
   display: flex;
   flex-direction: column;
   padding: 1rem; }
-  .category__products-card:not(:last-child) {
-    margin-right: 1.5rem; }
   .category__products-card .product-img__container {
     width: 100%;
     height: 12rem; }
@@ -194,6 +191,7 @@ body {
   padding-top: 60px; }
 
 .sidenav a {
+  color: #000000;
   transition: 0.3s; }
   .sidenav a:not(:last-of-type) {
     margin-bottom: 3.5rem; }
@@ -329,7 +327,8 @@ body {
   flex-direction: column; }
   .category__header {
     display: flex;
-    justify-content: space-between; }
+    justify-content: space-between;
+    margin-bottom: 2rem; }
     .category__header--title {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
@@ -681,7 +680,8 @@ body {
     background-color: navy;
     margin-right: 1.5rem;
     margin-top: 1.5rem;
-    position: relative; }
+    position: relative;
+    border-radius: 0.5rem; }
     .categories-container__card .category-picture {
       border-radius: 0.5rem;
       width: 100%;
@@ -1106,9 +1106,172 @@ body {
 
 .owl-stage {
   width: 100% !important;
-  height: 27rem;
   display: flex;
   align-items: center; }
 
 .owl-stage-outer {
   width: 100%; }
+
+.products-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem; }
+  .products-container .container-header {
+    width: 100%; }
+    .products-container .container-header .category-title-theme-2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600; }
+  .products-container .theme-2-product-card {
+    width: 100%;
+    height: 14.5rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem; }
+    .products-container .theme-2-product-card .product-picture-cont {
+      width: 14rem;
+      height: 12.2rem;
+      background-color: navy;
+      margin-right: 1.5rem; }
+      .products-container .theme-2-product-card .product-picture-cont .theme-2-prod-pic {
+        border-radius: 0.5rem;
+        width: 100%;
+        height: 100%; }
+    .products-container .theme-2-product-card .theme-2-product-info {
+      display: flex;
+      flex-direction: column;
+      flex: 1; }
+      .products-container .theme-2-product-card .theme-2-product-info .category-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600;
+        color: #b3b3b3;
+        margin-bottom: 1rem; }
+      .products-container .theme-2-product-card .theme-2-product-info .product-name {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1rem; }
+      .products-container .theme-2-product-card .theme-2-product-info .product-price {
+        color: #F54DA4;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1rem; }
+      .products-container .theme-2-product-card .theme-2-product-info .add-to-cart {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.4rem 1.2rem;
+        border: solid 0;
+        border-radius: 0.5rem;
+        margin-top: auto;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: #F54DA4;
+        cursor: pointer;
+        outline: none; }
+        .products-container .theme-2-product-card .theme-2-product-info .add-to-cart .add-icon {
+          margin-right: 1.5rem; }
+        .products-container .theme-2-product-card .theme-2-product-info .add-to-cart:hover {
+          background-color: #F8DCDB;
+          transition: all 0.2s;
+          color: black; }
+
+.categories-container-theme-3 {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column; }
+  .categories-container-theme-3__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem; }
+  .categories-container-theme-3 .category-card-theme-3 {
+    width: 13rem;
+    height: 12rem;
+    box-shadow: 0 0 3rem rgba(0, 0, 0, 0.08);
+    border-radius: 0.5rem;
+    margin-right: 2rem;
+    position: relative; }
+    .categories-container-theme-3 .category-card-theme-3 .category-picture-theme-3 {
+      width: 100%;
+      height: 100%;
+      border-radius: 0.5rem; }
+    .categories-container-theme-3 .category-card-theme-3 span {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.75);
+      color: black;
+      height: 4rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 400; }
+  .categories-container-theme-3 .categories-theme-3-cards {
+    display: flex; }
+
+.products-in-category-theme-4 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%; }
+
+.cateogries-title-container-theme-5 {
+  width: 100%;
+  padding: 1.5rem 1.5rem 0 1.5rem; }
+  .cateogries-title-container-theme-5__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600; }
+
+.categories-container-theme-5 {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1.5rem; }
+  .categories-container-theme-5__card {
+    width: 19rem;
+    height: 19.5rem;
+    background-color: navy;
+    margin-right: 1.5rem;
+    margin-top: 1.5rem;
+    position: relative;
+    border-radius: 0.5rem; }
+    .categories-container-theme-5__card .category-picture {
+      border-radius: 0.5rem;
+      width: 100%;
+      height: 100%; }
+    .categories-container-theme-5__card .category-title {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      color: black;
+      background-color: rgba(255, 255, 255, 0.25);
+      width: 100%;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 0.5rem 0 0.5rem 0;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 400; }
+
+.products-in-category-theme-6 {
+  display: flex;
+  padding: 0 1.5rem 1.5rem 1.5rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 7rem; }

@@ -1,0 +1,39 @@
+.categories-container-theme-3 {
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    &__title {
+        @include Montserrat(1.5rem, 600);
+        margin-bottom: 1.5rem;
+    }
+    .category-card-theme-3 {
+        width: 13rem;
+        height: 12rem;
+        box-shadow: 0 0 3rem rgba(0, 0, 0, 0.08);
+        border-radius: 0.5rem;
+        margin-right: 2rem;
+        position: relative;
+        .category-picture-theme-3 {
+            width: 100%;
+            height: 100%;
+            border-radius: 0.5rem;
+        }
+        span {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba($color-primary, $alpha: 0.75);
+            color: black;
+            height: 4rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include Poppins(1.4rem, 400);
+        }
+    }
+    .categories-theme-3-cards {
+        display: flex;
+    }
+
+}

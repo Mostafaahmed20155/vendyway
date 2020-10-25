@@ -1,6 +1,13 @@
-.categories-container {
+.cateogries-title-container-theme-5 {
     width: 100%;
-    margin-top: 6.5rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+    &__title {
+        @include Montserrat(1.5rem, 600);
+    }
+}
+
+.categories-container-theme-5 {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

@@ -1,0 +1,80 @@
+.products-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+//   margin-top: 8rem;
+  padding: 1.5rem;
+  .container-header {
+      width: 100%;
+    .category-title-theme-2 {
+        @include Montserrat(1.5rem, 600);
+    }  
+  }
+  .theme-2-product-card {
+    width: 100%;
+    height: 14.5rem;
+    background-color: $color-primary;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08);
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    .product-picture-cont {
+      width: 14rem;
+      height: 12.2rem;
+      background-color: navy;
+      margin-right: 1.5rem;
+      .theme-2-prod-pic {
+        border-radius: 0.5rem;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .theme-2-product-info {
+      display: flex;
+      flex-direction: column;
+      // padding: 1.5rem;
+      flex: 1;
+      .category-title {
+        @include Montserrat(1rem, 600);
+        color: #b3b3b3;
+        margin-bottom: 1rem;
+      }
+      .product-name {
+        @include Montserrat(1.2rem, 600);
+        margin-bottom: 1rem;
+        //   width: 60%;
+      }
+      .product-price {
+        color: $color-text;
+        @include Montserrat(1.2rem, 600);
+        margin-bottom: 1rem;
+      }
+      .add-to-cart {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // position: relative;
+        padding: 0.4rem 1.2rem;
+        border: solid 0;
+        border-radius: 0.5rem;
+        margin-top: auto;
+        @include Montserrat(1.4rem, 600);
+        color: $color-text;
+        cursor: pointer;
+        outline: none;
+        .add-icon {
+          margin-right: 1.5rem;
+        }
+        &:hover {
+          background-color: $color-tertairy;
+          transition: all 0.2s;
+          color: black;
+        }
+      }
+    }
+  }
+}

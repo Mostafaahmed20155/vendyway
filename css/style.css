@@ -34,11 +34,17 @@ body {
     .dotted-line .dot:not(:last-child) {
       margin-right: 1rem; }
 
+.clear-fix {
+  width: 19rem !important; }
+
 .margin-top-md {
   margin-top: 1.5rem; }
 
 .margin-right-md {
   margin-right: 1.5rem; }
+
+.clear-fix {
+  width: 19rem !important; }
 
 .total-info {
   display: flex;
@@ -241,6 +247,38 @@ body {
     position: sticky;
     top: 0; }
 
+@media only screen and (max-width: 450px) {
+  .main {
+    width: 100%;
+    display: flex; }
+    .main__app-section {
+      width: 100%;
+      min-height: 20rem; }
+    .main__landing-picture {
+      display: none; }
+    .main .header .nav-bar {
+      width: 100% !important; }
+    .main .options__delievery,
+    .main .options__car-pick-up {
+      width: 19rem; }
+    .main .categories-container__card {
+      width: 100%; }
+    .main .categories-container-theme-5__card {
+      width: 18rem; } }
+
+@media only screen and (min-width: 375px) {
+  .clear-fix {
+    width: 19rem !important; } }
+
+@media only screen and (max-width: 375px) {
+  .main .options__delievery,
+  .main .options__car-pick-up {
+    width: 16rem; }
+  .clear-fix {
+    width: 16rem !important; }
+  .categories-container-theme-5__card {
+    width: 15rem !important; } }
+
 .cover-picture-block {
   width: 100%;
   height: 25rem;
@@ -354,9 +392,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 7rem; }
-
-.clear-fix {
-  width: 19rem !important; }
 
 .product-details {
   display: flex;

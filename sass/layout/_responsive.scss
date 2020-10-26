@@ -1,0 +1,51 @@
+@media only screen and (max-width: 450px) {
+  .main {
+    width: 100%;
+    display: flex;
+    &__app-section {
+      width: 100%;
+      min-height: 20rem;
+      // background-color: blue;
+    }
+    &__landing-picture {
+      display: none;
+    }
+    .header {
+      .nav-bar {
+        width: 100% !important;
+      }
+    }
+    .options__delievery,
+    .options__car-pick-up {
+      width: 19rem;
+    }
+    .categories-container__card {
+      width: 100%;
+    }
+    .categories-container-theme-5__card {
+        width: 18rem;
+    }
+  }
+
+}
+
+
+@media only screen and (min-width: 375px) {
+    .clear-fix {
+      width: 19rem !important;
+  }
+  }
+
+@media only screen and (max-width: 375px) {
+  .main .options__delievery,
+  .main .options__car-pick-up {
+    width: 16rem;
+  }
+  .clear-fix {
+    width: 16rem !important;
+}
+.categories-container-theme-5__card {
+    width: 15rem !important;
+}
+}
+

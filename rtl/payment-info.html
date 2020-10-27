@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Information</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style-rtl.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
+    <script src="../js/main.js" defer></script>
+</head>
+
+<body>
+    <main class="main">
+        <section class="main__app-section">
+            <header class="header">
+                <nav class="nav-bar non-home-nav">
+                    <a href="delievery-information.html"><img src="../img/Icon feather-arrow-left.svg" alt="back-icon"
+                            class="back-icon"></a>
+                    <h1 class="page-title">معلومات الدفع</h1>
+                </nav>
+            </header>
+            <div class="checkout-info">
+                <p class="intro-paragraph">قم بأدخال بيانات الدفع الخاصة بك</p>
+                <form action="#" class="contact-information">
+                    <label for="cnum">رقم الكارت </label>
+                    <input type="text" id="cnum" name="cnum" placeholder="4242 4242 4242 4242"
+                        pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}">
+                    <label for="name-on-card">الأسم علي الكارت</label>
+                    <input type="text" id="name-on-card" name="name-on-card" placeholder="Name on the card...">
+                    <div class="inputs-cont">
+                        <div class="input-container">
+                            <label for="exp-date">تاريخ الأنتهاء</label>
+                            <input type="text" id="exp-date" class="card-inputs exp-date" name="exp-date"
+                                placeholder="MM/YY">
+                        </div>
+                        <div class="input-container">
+                            <label for="CVC">CVC</label>
+                            <input type="number" id="cvc" class="card-inputs" name="cvc" placeholder="CVC..">
+                        </div>
+                    </div>
+                    <div class="dotted-line">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="total-info">
+                        <h1 class="total-title">الملغ الكلي</h1>
+                        <p class="total-value">0.950 دينار كويتي </p>
+                    </div>
+                    <button type="submit" class="checkout-btn">ادفع الأن</button>
+                </form>
+            </div>
+        </section>
+        <section class="main__landing-picture">
+            <!-- <img src="img/instagram-food-1536589581.jpg" alt="picture" class="main__landing-picture--picture"> -->
+        </section>
+    </main>
+</body>
+
+</html>

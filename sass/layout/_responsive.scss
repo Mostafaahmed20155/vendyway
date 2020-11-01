@@ -46,9 +46,12 @@
         width: 100% !important;
       }
     }
-    .options__delievery,
-    .options__car-pick-up {
-      width: 19rem;
+    .options a {
+      width: 45%;
+    }
+    .main .options__delievery,
+    .main .options__car-pick-up {
+      width: 100%;
     }
     .categories-container__card {
       width: 100%;
@@ -66,9 +69,12 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .options a {
+    width: 45%;
+  }
   .main .options__delievery,
   .main .options__car-pick-up {
-    width: 16rem;
+    width: 100%;
   }
   .clear-fix {
     width: 16rem !important;
@@ -76,4 +82,50 @@
   .categories-container-theme-5__card {
     width: 15rem !important;
   }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .main__landing-picture {
+    display: none;
+  }
+  .main__app-section {
+    width: 100%;
+    // min-height: 20rem;
+  }
+  .header .nav-bar {
+    width: 100% !important;
+  }
+  .options a {
+    width: 45%;
+  }
+  .options__delievery,
+  .options__car-pick-up {
+    width: 100% !important;
+  }
+  .dotted-line {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .main__app-section {
+    width: 60rem;
+}
+.header .nav-bar {
+  width: 60rem !important;
+}
+.options a {
+  width: 47.5%;
+}
+.options__delievery, .options__car-pick-up {
+  width: 100% !important;
+}
+.categories-container__card {
+  width: 26rem !important;
+}
+.clear-fix {
+  width: 26rem !important;
+}
+.dotted-line {
+justify-content: center;}
 }

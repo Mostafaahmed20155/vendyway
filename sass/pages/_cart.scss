@@ -22,11 +22,13 @@
         &__picture-container {
           width: 14rem;
           height: 13rem;
+          border-radius: 0.5rem;
         }
         &-picture {
           border-radius: 1rem;
           width: 100%;
           height: 100%;
+          object-fit: cover;
         }
       }
       .product-info {

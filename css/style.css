@@ -112,7 +112,8 @@ body {
     .category__products-card .product-img__container .product-img {
       border-radius: 1rem;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      object-fit: cover; }
   .category__products-card .product-name {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
@@ -244,6 +245,7 @@ body {
     height: 100vh;
     flex: 1;
     background-color: orangered;
+    background-image: url("../../img/instagram-food-1536589581.jpg");
     position: sticky;
     top: 0; }
 
@@ -277,9 +279,11 @@ body {
       display: none; }
     .main .header .nav-bar {
       width: 100% !important; }
-    .main .options__delievery,
-    .main .options__car-pick-up {
-      width: 19rem; }
+    .main .options a {
+      width: 45%; }
+    .main .main .options__delievery,
+    .main .main .options__car-pick-up {
+      width: 100%; }
     .main .categories-container__card {
       width: 100%; }
     .main .categories-container-theme-5__card {
@@ -290,13 +294,46 @@ body {
     width: 19rem !important; } }
 
 @media only screen and (max-width: 375px) {
+  .options a {
+    width: 45%; }
   .main .options__delievery,
   .main .options__car-pick-up {
-    width: 16rem; }
+    width: 100%; }
   .clear-fix {
     width: 16rem !important; }
   .categories-container-theme-5__card {
     width: 15rem !important; } }
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .main__landing-picture {
+    display: none; }
+  .main__app-section {
+    width: 100%; }
+  .header .nav-bar {
+    width: 100% !important; }
+  .options a {
+    width: 45%; }
+  .options__delievery,
+  .options__car-pick-up {
+    width: 100% !important; }
+  .dotted-line {
+    justify-content: center; } }
+
+@media only screen and (min-width: 768px) {
+  .main__app-section {
+    width: 60rem; }
+  .header .nav-bar {
+    width: 60rem !important; }
+  .options a {
+    width: 47.5%; }
+  .options__delievery, .options__car-pick-up {
+    width: 100% !important; }
+  .categories-container__card {
+    width: 26rem !important; }
+  .clear-fix {
+    width: 26rem !important; }
+  .dotted-line {
+    justify-content: center; } }
 
 .cover-picture-block {
   width: 100%;
@@ -306,7 +343,8 @@ body {
   .cover-picture-block .cover-picture {
     width: 100%;
     height: 100%;
-    border-radius: 1.5rem; }
+    border-radius: 1.5rem;
+    object-fit: cover; }
 
 .delievery-title, .car-pickup-title {
   margin-left: 1.5rem;
@@ -423,7 +461,8 @@ body {
     margin-top: 7rem; }
   .product-details .product-picture {
     width: 100%;
-    height: 100%; }
+    height: 100%;
+    object-fit: cover; }
   .product-details .product-summary {
     padding: 1.5rem; }
     .product-details .product-summary .product-name {
@@ -548,11 +587,13 @@ body {
       margin-bottom: 1.5rem; }
     .cart__order-items .cart-product-item .product-item__picture-container {
       width: 14rem;
-      height: 13rem; }
+      height: 13rem;
+      border-radius: 0.5rem; }
     .cart__order-items .cart-product-item .product-item-picture {
       border-radius: 1rem;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      object-fit: cover; }
     .cart__order-items .cart-product-item .product-info {
       display: flex;
       flex-direction: column;
@@ -739,7 +780,8 @@ body {
     .categories-container__card .category-picture {
       border-radius: 0.5rem;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      object-fit: cover; }
     .categories-container__card .category-title {
       position: absolute;
       bottom: 0;
@@ -802,11 +844,13 @@ body {
         width: 14rem;
         height: 12.2rem;
         background-color: navy;
+        border-radius: 0.5rem;
         margin-right: 1.5rem; }
         .search-container .search-results .result-product-card .product-picture-cont .result-prod-pic {
           border-radius: 0.5rem;
           width: 100%;
-          height: 100%; }
+          height: 100%;
+          object-fit: cover; }
       .search-container .search-results .result-product-card .result-product-info {
         display: flex;
         flex-direction: column;

@@ -343,3 +343,111 @@ direction: rtl;
     display: flex;
     justify-content: space-between;
 }
+
+.schedule-time__title {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.schedule-time .dates-selections .date-selection .right-container .day-name {
+    font-family: 'Cairo', sans-serif;
+}
+
+.finish-selection-btn {
+    font-family: 'Cairo', sans-serif;
+}
+
+.search-container .search-results .result-product-card {
+    direction: rtl;
+}
+
+.search-container .search-results .result-product-card .product-picture-cont {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.search-container .search-results .result-product-card .result-product-info .category-title {
+    font-family: 'Cairo', sans-serif;
+}
+
+.search-container .search-results .result-product-card .result-product-info .product-name {
+    font-family: 'Cairo', sans-serif;
+}
+
+.search-container .search-results .result-product-card .result-product-info .add-to-cart .add-icon {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.search-container .search-results .result-product-card .result-product-info .add-to-cart {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary {
+    direction: rtl;
+}
+
+.product-details .product-summary .product-name {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .description-title {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .add-instructions-title {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .product-description {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .instruction-form .instructions {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .product-qty-price .product-qty .qty-title {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .product-qty-price .product-price .price-title {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .product-qty-price .product-price .price-value {
+    font-family: 'Cairo', sans-serif;
+}
+
+.product-details .product-summary .place-order {
+    font-family: 'Cairo', sans-serif;
+}
+
+.products-container .container-header .category-title-theme-2 {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.categories-container-theme-3__title {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.categories-container-theme-3 .category-card-theme-3 span {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.cateogries-title-container-theme-5__title {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+.categories-container-theme-5__card .category-title {
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+}
+
+body {
+    scroll-behavior: smooth;
+}

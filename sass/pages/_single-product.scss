@@ -66,6 +66,7 @@
           display: flex;
           flex-direction: column;
           align-items: center;
+          margin-left: -5rem;
         .qty-title {
           @include Montserrat(1.3rem, 600);
           margin-bottom: 1.5rem;
@@ -74,10 +75,37 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            span {
-                @include Montserrat(1.5rem, 500);
-                margin: 0 1rem;
+            form {
+              width: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              .row {
+                display: flex;
+                // flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                input {
+                  width: 10%;
+                  text-align: center;
+                  margin: 0 1rem;
+                  border: none;
+                  @include Montserrat(1.3rem , 600)
+                }
+                .button {
+                  padding: 0.5rem 1rem;
+                  border-radius: 50%;
+                  cursor: pointer;
+                  @include Montserrat(1.3rem,600);
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  box-shadow: 0 0 3rem rgba($color: #000000, $alpha: 0.1);
+                  user-select: none;
+                }
+              }
             }
+
         }
       }
       .vr {
@@ -89,7 +117,8 @@
           display: flex;
           flex-direction: column;
           align-items: center;
-          
+          // margin-left: 10rem;
+          margin-right: 2rem;
           .price-title {
             @include Montserrat(1.3rem, 600);
             margin-bottom: 1.5rem;

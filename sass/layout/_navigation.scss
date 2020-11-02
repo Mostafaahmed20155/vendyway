@@ -22,6 +22,11 @@
     .side-bar__button {
       cursor: pointer;
     }
+    .en-selection {
+      @include Montserrat(1.7rem, 600);
+      color: black;
+      margin-right: 2rem;
+    }
   }
 }
 

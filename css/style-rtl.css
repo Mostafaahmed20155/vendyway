@@ -448,6 +448,22 @@ direction: rtl;
     direction: rtl;
 }
 
+.category__products {
+    direction: ltr;
+}
+
+.main {
+    direction: rtl;
+}
+
+.categories-container-theme-3 .categories-theme-3-cards {
+    direction: ltr;
+}
+
+.categories-container-theme-5__card {
+    width: 27rem;
+}
+
 body {
     scroll-behavior: smooth;
 }

@@ -695,14 +695,16 @@ body {
         outline: solid 1px;
         transition: all .2s; }
     .checkout-info .contact-information .inputs-cont {
-      display: flex; }
+      display: flex;
+      width: 100%; }
     .checkout-info .contact-information .card-inputs {
       width: 100%; }
     .checkout-info .contact-information .exp-date {
       width: 90%; }
     .checkout-info .contact-information .input-container {
       display: flex;
-      flex-direction: column; }
+      flex-direction: column;
+      width: 100%; }
     .checkout-info .contact-information label {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.3rem;

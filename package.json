@@ -20,7 +20,8 @@
   "homepage": "https://github.com/Mostafaahmed20155/vendyway#readme",
   "dependencies": {
     "live-server": "^1.2.1",
-    "npm-run-all": "^4.1.5"
+    "npm-run-all": "^4.1.5",
+    "scroll-with-ease": "^1.0.3"
   },
   "devDependencies": {
     "node-sass": "^4.14.1"

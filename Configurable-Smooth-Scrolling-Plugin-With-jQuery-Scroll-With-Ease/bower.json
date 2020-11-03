@@ -1,0 +1,24 @@
+{
+  "name": "scroll-with-ease",
+  "authors": [
+    "flasd <https://github.com/flasd>"
+  ],
+  "description": "A Smooth Scrolling plugin to Jquery",
+  "main": "jquery.scroll-with-ease.js",
+  "keywords": [
+    "jquery",
+    "smooth",
+    "scroll",
+    "scrolling",
+    "plugin"
+  ],
+  "license": "MIT",
+  "homepage": "flasd.com/projeto/scroll-with-ease?lang=en",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "scroll-with-ease",
+  "version": "1.0.0",
+  "description": "A smooth scrolling plugin to Jquery",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^2.0.1",
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^2.0.1",
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "flasd <https://github.com/flasd>",
+  "license": "MIT"
+}

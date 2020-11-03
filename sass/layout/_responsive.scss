@@ -110,22 +110,24 @@
 @media only screen and (min-width: 768px) {
   .main__app-section {
     width: 60rem;
-}
-.header .nav-bar {
-  width: 60rem !important;
-}
-.options a {
-  width: 47.5%;
-}
-.options__delievery, .options__car-pick-up {
-  width: 100% !important;
-}
-.categories-container__card {
-  width: 26rem !important;
-}
-.clear-fix {
-  width: 26rem !important;
-}
-.dotted-line {
-justify-content: center;}
+  }
+  .header .nav-bar {
+    width: 60rem !important;
+  }
+  .options a {
+    width: 47.5%;
+  }
+  .options__delievery,
+  .options__car-pick-up {
+    width: 100% !important;
+  }
+  .categories-container__card {
+    width: 26rem !important;
+  }
+  .clear-fix {
+    width: 26rem !important;
+  }
+  .dotted-line {
+    justify-content: center;
+  }
 }

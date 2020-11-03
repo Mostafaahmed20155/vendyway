@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="235" height="71" viewBox="0 0 235 71">
+  <g id="save-your-payemnt" transform="translate(-63 -516)">
+    <rect id="Rectangle_100" data-name="Rectangle 100" width="235" height="71" rx="5" transform="translate(63 516)" fill="#f8dcdb"/>
+    <rect id="Rectangle_101" data-name="Rectangle 101" width="54" height="54" rx="5" transform="translate(72 525)" fill="#fff"/>
+    <text id="Save_your_payments" data-name="Save your payments" transform="translate(142 556)" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Save your payments</tspan></text>
+    <g id="credit-card" transform="translate(83 535.484)">
+      <g id="Group_162" data-name="Group 162" transform="translate(0 0.516)">
+        <g id="Group_161" data-name="Group 161">
+          <rect id="Rectangle_93" data-name="Rectangle 93" width="3.139" height="1.046" transform="translate(22.496 20.859)"/>
+          <rect id="Rectangle_94" data-name="Rectangle 94" width="3.139" height="1.046" transform="translate(18.31 20.859)"/>
+          <rect id="Rectangle_95" data-name="Rectangle 95" width="3.139" height="1.046" transform="translate(14.125 20.859)"/>
+          <path id="Path_265" data-name="Path 265" d="M30.859,11.332,20.508.979A1.563,1.563,0,0,0,19.4.516h0a1.548,1.548,0,0,0-1.1.463L7.306,11.958H1.569A1.569,1.569,0,0,0,0,13.528V28.176a1.569,1.569,0,0,0,1.569,1.569H9.321l1.561,1.563a1.563,1.563,0,0,0,1.112.463h0a1.549,1.549,0,0,0,1.1-.463l1.564-1.563H26.681a1.569,1.569,0,0,0,1.569-1.569V16.161l2.606-2.606a1.561,1.561,0,0,0,0-2.223ZM24.2,6.157l-5.8,5.8H13.96l8.023-8.023Zm-5.176-4.44a.516.516,0,0,1,.729-.009l.009.009L21.243,3.2,12.48,11.958H8.786ZM12.361,30.571a.509.509,0,0,1-.366.157.523.523,0,0,1-.372-.157l-.822-.825h2.386ZM27.2,28.176a.523.523,0,0,1-.523.523H1.569a.523.523,0,0,1-.523-.523V20.852H27.2Zm0-8.37H1.046V16.667H27.2Zm0-4.185H1.046V13.528A.523.523,0,0,1,1.569,13H26.681a.523.523,0,0,1,.523.523Zm2.916-2.808h0L28.25,14.682V13.528a1.569,1.569,0,0,0-1.569-1.569h-6.8L24.942,6.9l5.176,5.176a.523.523,0,0,1,.157.374A.513.513,0,0,1,30.12,12.813Z" transform="translate(0 -0.516)"/>
+          <path id="Path_266" data-name="Path 266" d="M27.257,363.166a2.1,2.1,0,0,0,.214-.214,2.074,2.074,0,0,0,2.754.355,2.127,2.127,0,0,0,.908-1.724,2.093,2.093,0,0,0-2.093-2.093,1.587,1.587,0,0,0-.31.026l-.014,0H28.7a2.066,2.066,0,0,0-1.231.695,2.093,2.093,0,1,0-.214,2.952Zm1.651-2.619a.629.629,0,0,1,.132-.011,1.046,1.046,0,0,1,1.046,1.046,1.026,1.026,0,0,1-.206.614c-.019.026-.033.052-.055.079,0,0-.009.007-.013.011a1.04,1.04,0,1,1-.905-1.739Zm-3.007-.011a1.046,1.046,0,1,1-1.046,1.046A1.046,1.046,0,0,1,25.9,360.536Z" transform="translate(-22.239 -336.015)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

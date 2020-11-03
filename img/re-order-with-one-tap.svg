@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="235" height="71" viewBox="0 0 235 71">
+  <g id="re-order-with-one-tap" transform="translate(-63 -602)">
+    <rect id="Rectangle_102" data-name="Rectangle 102" width="235" height="71" rx="5" transform="translate(63 602)" fill="#f54da4"/>
+    <rect id="Rectangle_103" data-name="Rectangle 103" width="54" height="54" rx="5" transform="translate(72 611)" fill="#fff"/>
+    <text id="Re-order_with_one_tap" data-name="Re-order with one tap" transform="translate(142 642)" fill="#fff" font-size="13" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Re-order with one tap</tspan></text>
+    <g id="future" transform="translate(84.998 624)">
+      <g id="Group_158" data-name="Group 158" transform="translate(0.002 0)">
+        <g id="Group_157" data-name="Group 157" transform="translate(0 0)">
+          <path id="Path_263" data-name="Path 263" d="M27.113,13.146a.818.818,0,0,0-.818.818A12.323,12.323,0,1,1,19.855,3.132L18.832,4.155a.818.818,0,0,0,.579,1.4h3.915a.818.818,0,0,0,.818-.818V.818a.818.818,0,0,0-1.4-.579L21.056,1.932A13.965,13.965,0,0,0,4.092,23.839a13.964,13.964,0,0,0,23.839-9.874A.818.818,0,0,0,27.113,13.146Z" transform="translate(-0.002 0)"/>
+        </g>
+      </g>
+      <g id="Group_160" data-name="Group 160" transform="translate(13.148 7.888)">
+        <g id="Group_159" data-name="Group 159">
+          <path id="Path_264" data-name="Path 264" d="M247.08,149.859h-4.44v-4.44a.818.818,0,0,0-1.636,0v5.258a.818.818,0,0,0,.818.818h5.258a.818.818,0,1,0,0-1.636Z" transform="translate(-241.003 -144.601)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

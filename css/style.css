@@ -161,7 +161,7 @@ body {
   width: 100%;
   background-color: #ffffff; }
   .header .nav-bar {
-    width: 100%;
+    height: 8rem;
     display: flex;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -204,7 +204,7 @@ body {
 
 .sidenav {
   height: 100%;
-  width: 0;
+  width: 34.5rem;
   position: fixed;
   z-index: 10000;
   display: flex;
@@ -254,6 +254,10 @@ body {
   right: 25px;
   font-size: 36px;
   margin-left: 50px; }
+
+.in-active {
+  display: none;
+  transition: 0.5s; }
 
 .main {
   width: 100%;

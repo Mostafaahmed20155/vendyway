@@ -1,9 +1,20 @@
 function openNav() {
+  $('#mySidenav > *').hide(0);
+  $('#mySidenav').removeClass('in-active'); 
   document.getElementById("mySidenav").style.width = "34.5rem";
+  // $('#mySidenav').animate({width: '34.5rem'}, 500);
+  setTimeout(function(){
+    // console.log("show");
+    $('#mySidenav > *').show(0);
+  }, 500)
+
 }
 
 function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
+  // document.getElementById("mySidenav").style.width = "0";
+  $('#mySidenav > *').hide(0, function(){
+    document.getElementById("mySidenav").style.width = "0";
+});
 }
 
 $(".button").on("click", function() {

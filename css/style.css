@@ -312,11 +312,11 @@ body {
     .main .categories-container__card {
       width: 100%; }
     .main .categories-container-theme-5__card {
-      width: 18rem; } }
+      width: 17rem; } }
 
 @media only screen and (min-width: 375px) {
   .clear-fix {
-    width: 19rem !important; } }
+    width: 18.5rem !important; } }
 
 @media only screen and (max-width: 375px) {
   .options a {
@@ -328,21 +328,6 @@ body {
     width: 16rem !important; }
   .categories-container-theme-5__card {
     width: 15rem !important; } }
-
-@media only screen and (min-width: 425px) and (max-width: 768px) {
-  .main__landing-picture {
-    display: none; }
-  .main__app-section {
-    width: 100%; }
-  .header .nav-bar {
-    width: 100% !important; }
-  .options a {
-    width: 45%; }
-  .options__delievery,
-  .options__car-pick-up {
-    width: 100% !important; }
-  .dotted-line {
-    justify-content: center; } }
 
 @media only screen and (min-width: 768px) {
   .main__app-section {
@@ -360,6 +345,29 @@ body {
     width: 26rem !important; }
   .dotted-line {
     justify-content: center; } }
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+  .main__landing-picture {
+    display: none; }
+  .main__app-section {
+    width: 100%; }
+  .header .nav-bar {
+    width: 100% !important; }
+  .options a {
+    width: 45%; }
+  .options__delievery,
+  .options__car-pick-up {
+    width: 100% !important; }
+  .dotted-line {
+    justify-content: center; } }
+
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .categories-container-theme-5__card {
+    width: 32rem !important; } }
+
+@media only screen and (max-width: 320px) {
+  .categories-container-theme-5__card {
+    width: 28rem !important; } }
 
 .cover-picture-block {
   width: 100%;
@@ -1288,8 +1296,7 @@ body {
 .owl-stage {
   width: 100% !important;
   display: flex;
-  align-items: center;
-  height: 26rem; }
+  align-items: center; }
 
 .owl-dots {
   display: none !important; }
@@ -1439,7 +1446,8 @@ body {
     .categories-container-theme-5__card .category-picture {
       border-radius: 0.5rem;
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      object-fit: cover; }
     .categories-container-theme-5__card .category-title {
       position: absolute;
       bottom: 0;

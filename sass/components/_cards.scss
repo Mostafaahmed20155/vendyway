@@ -31,6 +31,7 @@
             .product-name {
                 @include Montserrat(1.2rem, 600);
                 margin-top: 1rem;
+                line-height: 1.7rem;
             }
             .add-to-cart {
                 width: 100%;
@@ -42,6 +43,7 @@
                 border: solid 0;
                 border-radius: 0.5rem;
                 margin-top: auto;
+                background-color: $color-secondary;
                 @include Montserrat(1.4rem, 600);
                 color: $color-text;
                 cursor: pointer;
@@ -58,7 +60,7 @@
                 // transform: translateY(-50%);
                 // left: 8%;
                 margin-right: 1rem;
-                width: 10% !important;
+                width: 1rem !important;
             }
         }
     }

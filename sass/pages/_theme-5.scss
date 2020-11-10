@@ -27,13 +27,17 @@
             object-fit: cover;
         }
         .category-title {
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             position: absolute;
             bottom: 0;
             right: 0;
-            color: black;
-            background-color: rgba(255,255,255, $alpha: 0.25);
+            color: $color-primary;
+            background-color: rgba(0,0,0, $alpha: 0.5);
             width: 100%;
-            padding: 1rem;
+            // padding: 1rem;
             text-align: center;
             border-radius: 0.5rem 0 0.5rem 0;
             @include Poppins(1.3rem, 400);

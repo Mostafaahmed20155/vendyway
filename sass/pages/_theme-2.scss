@@ -35,7 +35,9 @@
     .theme-2-product-info {
       display: flex;
       flex-direction: column;
-      // padding: 1.5rem;
+      padding-left: 0.5rem;
+      padding-top: 0.5rem;
+      height: 100%;
       flex: 1;
       .category-title {
         @include Montserrat(1rem, 600);
@@ -45,6 +47,7 @@
       .product-name {
         @include Montserrat(1.2rem, 600);
         margin-bottom: 1rem;
+        line-height: 2rem;
         //   width: 60%;
       }
       .product-price {
@@ -53,7 +56,7 @@
         margin-bottom: 1rem;
       }
       .add-to-cart {
-        width: 100%;
+        // width: 12.4rem;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -62,8 +65,10 @@
         border: solid 0;
         border-radius: 0.5rem;
         margin-top: auto;
-        @include Montserrat(1.4rem, 600);
+        margin-left: auto;
+        @include Montserrat(1.3rem, 600);
         color: $color-text;
+        background-color: $color-secondary;
         cursor: pointer;
         outline: none;
         .add-icon {

@@ -523,6 +523,13 @@ body {
   margin-left: 2rem;
 }
 
+.product-details .product-img-container .back-btn-cont {
+  top: 5%;
+  left: unset;
+  right: 1.5rem;
+  transform: rotateY(180deg);
+}
+
 body {
   scroll-behavior: smooth;
 }

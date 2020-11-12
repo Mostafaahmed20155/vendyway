@@ -44,6 +44,7 @@
         @include Montserrat(1rem, 600);
         color: #b3b3b3;
         margin-bottom: 1rem;
+        // display: none;
       }
       .product-name {
         @include Montserrat(1.2rem, 600);

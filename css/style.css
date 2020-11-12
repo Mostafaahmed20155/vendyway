@@ -322,7 +322,11 @@ body {
 
 @media only screen and (min-width: 375px) {
   .clear-fix {
-    width: 18.5rem !important; } }
+    width: 48% !important; }
+  .products-in-category-theme-4 a {
+    width: 48%; }
+  .products-in-category-theme-4 .category__products-card {
+    width: 100% !important; } }
 
 @media only screen and (max-width: 375px) {
   .options a {
@@ -331,7 +335,11 @@ body {
   .main .options__car-pick-up {
     width: 100%; }
   .clear-fix {
-    width: 16rem !important; } }
+    width: 100% !important; }
+  .products-in-category-theme-4 a {
+    width: 100%; }
+  .products-in-category-theme-4 .category__products-card {
+    width: 100% !important; } }
 
 @media only screen and (min-width: 768px) {
   .main__app-section {
@@ -344,8 +352,6 @@ body {
   .options__car-pick-up {
     width: 100% !important; }
   .categories-container__card {
-    width: 26rem !important; }
-  .clear-fix {
     width: 26rem !important; }
   .dotted-line {
     justify-content: center; } }
@@ -377,7 +383,13 @@ body {
   .categories-container-theme-5__card {
     width: 95% !important; }
   .categories-container-theme-5 a {
-    width: 50% !important; } }
+    width: 50% !important; }
+  .categories-container {
+    justify-content: space-between !important; }
+  .categories-container a {
+    width: 48%; }
+  .categories-container__card {
+    width: 100% !important; } }
 
 .cover-picture-block {
   width: 100%;
@@ -957,7 +969,8 @@ body {
         height: 12.2rem;
         background-color: navy;
         border-radius: 0.5rem;
-        margin-right: 1.5rem; }
+        margin-right: 1.5rem;
+        border-radius: 0.5rem; }
         .search-container .search-results .result-product-card .product-picture-cont .result-prod-pic {
           border-radius: 0.5rem;
           width: 100%;
@@ -1354,7 +1367,8 @@ body {
       width: 14rem;
       height: 12.2rem;
       background-color: navy;
-      margin-right: 1.5rem; }
+      margin-right: 1.5rem;
+      border-radius: 0.5rem; }
       .products-container .theme-2-product-card .product-picture-cont .theme-2-prod-pic {
         border-radius: 0.5rem;
         width: 100%;

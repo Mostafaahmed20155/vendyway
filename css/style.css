@@ -312,9 +312,13 @@ body {
     .main .main .options__car-pick-up {
       width: 100%; }
     .main .categories-container__card {
-      width: 100%; }
-    .main .categories-container-theme-5__card {
-      width: 17rem; } }
+      width: 100%; } }
+
+@media only screen and (min-width: 375px) and (max-width: 425px) {
+  .categories-container-theme-5__card {
+    width: 100% !important; }
+  .categories-container-theme-5 a {
+    width: 48% !important; } }
 
 @media only screen and (min-width: 375px) {
   .clear-fix {
@@ -327,9 +331,7 @@ body {
   .main .options__car-pick-up {
     width: 100%; }
   .clear-fix {
-    width: 16rem !important; }
-  .categories-container-theme-5__card {
-    width: 15rem !important; } }
+    width: 16rem !important; } }
 
 @media only screen and (min-width: 768px) {
   .main__app-section {
@@ -370,6 +372,12 @@ body {
 @media only screen and (max-width: 320px) {
   .categories-container-theme-5__card {
     width: 28rem !important; } }
+
+@media only screen and (min-width: 425px) {
+  .categories-container-theme-5__card {
+    width: 95% !important; }
+  .categories-container-theme-5 a {
+    width: 50% !important; } }
 
 .cover-picture-block {
   width: 100%;
@@ -1455,13 +1463,12 @@ body {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   padding: 1.5rem; }
   .categories-container-theme-5__card {
     width: 19rem;
     height: 19.5rem;
     background-color: navy;
-    margin-right: 1.5rem;
     margin-top: 1.5rem;
     position: relative;
     border-radius: 0.5rem; }

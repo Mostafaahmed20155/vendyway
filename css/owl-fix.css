@@ -1,0 +1,7 @@
+.owl-stage {
+    width: 100% !important;
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    height: 26rem !important;
+}

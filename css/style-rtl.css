@@ -164,6 +164,8 @@ body {
 .products-container .theme-2-product-card .theme-2-product-info .add-to-cart {
   font-family: "Cairo", sans-serif;
   direction: rtl;
+  margin-right: auto;
+  margin-left: unset;
 }
 
 .products-container

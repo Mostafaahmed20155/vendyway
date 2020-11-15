@@ -6,7 +6,7 @@
         // margin-top: 3rem;
         &-card {
             width: 15rem !important;
-            height: 24rem;
+            height: 26rem;
             border-radius: 1rem;
             background-color: $color-primary;
             box-shadow: 0 0 1.5rem rgba($color: #000000, $alpha: 0.08);
@@ -29,9 +29,15 @@
                 }
             }
             .product-name {
-                @include Montserrat(1.2rem, 600);
+                @include Montserrat(1rem, 600);
                 margin-top: 1rem;
                 line-height: 1.7rem;
+            }
+            .product-description {
+                @include Montserrat(1rem, 600);
+                margin-top: 0.7rem;
+                color: #C2B7C6;
+                line-height: 1.5rem;
             }
             .add-to-cart {
                 width: 100%;

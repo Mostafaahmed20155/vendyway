@@ -532,6 +532,22 @@ body {
   transform: rotateY(180deg);
 }
 
+.products-container .theme-2-product-card .theme-2-product-info .product-description {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+}
+
+.category__products-card .product-description {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+}
+
+.search-container .search-results .result-product-card .result-product-info .product-description {
+  font-family: "Cairo", sans-serif;
+  direction: rtl;
+
+}
+
 body {
   scroll-behavior: smooth;
 }

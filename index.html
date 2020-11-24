@@ -20,10 +20,10 @@
     <main class="main">
         <section class="main__app-section">
             <header class="header">
-                <nav class="nav-bar">
+                <nav class="nav-bar animate">
                     <img src="img/side-bar-button.svg" alt="side-bar-button" class="side-bar__button"
                         onclick="openNav()">
-                    <img src="img/Cinnabon-Logo.png" alt="store-logo" class="store-logo">
+                    <img src="img/Cinnabon-Logo.png" alt="store-logo" class="store-logo animate">
                     <a href="./rtl/index.html" class="en-selection">AR</a>
                     <a href="search.html">
                         <img src="img/Icon ionic-ios-search.svg" alt="search-icon" class="search-icon">
@@ -295,6 +295,19 @@
             });
             // document.getElementById("mySidenav").style.width = "0";
             $("html").scrollWithEase();
+        });
+    </script>
+
+
+    <script>
+        $(document).on('scroll', function() {
+            if ($(document).scrollTop() < 75) {
+                $('.store-logo').css('width', '15rem');
+                $('.nav-bar').css('height', '13rem');
+            } else {
+                $('.store-logo').css('width', '10rem');
+                $('.nav-bar').css('height', '8rem');
+            }
         });
     </script>
 

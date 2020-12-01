@@ -9,7 +9,7 @@
     position: relative;
     // margin-top: 7rem;
     .back-btn-cont {
-      background-color: rgba($color: #FFFFFF, $alpha: 0.9);
+      background-color: rgba($color: #ffffff, $alpha: 0.9);
       width: 5rem;
       position: absolute;
       height: 5rem;
@@ -50,10 +50,147 @@
       color: $color-text;
       line-height: 2.5rem;
     }
+    .custom-product-container {
+      width: 100%;
+      // min-height: 10rem;
+      border-radius: 0.5rem;
+      &:first-of-type {
+        box-shadow: 0 0 3rem rgba($color: #000000, $alpha: 0.08);
+      }
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column;
+      &:hover {
+        margin-bottom: 2rem;
+      }
+      .custom-product-label {
+        width: 100%;
+        height: 7.5rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: $color-secondary;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem;
+        .custom-title {
+          @include Montserrat(500, 1.6rem);
+        }
+        .custom-label-arrow {
+          width: 1rem;
+          transform: rotateZ(90deg);
+          fill: black;
+        }
+      }
+      .custom-product-options {
+        width: 100%;
+        padding: 2rem;
+        .custom-product-option {
+          display: flex;
+          justify-content: space-between;
+          background-color: #fcfafa;
+          padding: 1.5rem 3rem;
+          border-radius: 3rem;
+          &:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer; 
+          }
+          &:not(:last-of-type) {
+            margin-bottom: 1.5rem;
+          }
+          .custom-addition-title {
+            @include Poppins(1.3rem, 500);
+          }
+          .custom-addition-value {
+            @include Poppins(1.2rem, 600);
+            color: rgba($color: #000000, $alpha: 0.3);
+          }
+        }
+      }
+    }
+    .product-size {
+      width: 100%;
+      margin-top: 1.5rem;
+      .product-size-title {
+        @include Montserrat(1.2rem, 600);
+        margin-bottom: 1.5rem;    
+      }
+      .product-size-options {
+        display: flex;
+        justify-content: space-between;
+        .single-option {
+          background-color: $color-secondary;
+          padding: 1rem 2.3rem;
+          // width: 20%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 3rem;
+          .size-title {
+            @include Montserrat (1.2rem, 600);
+            margin-bottom: 0.5rem;
+          }
+          .size-value {
+            @include Montserrat (1.1rem, 600);
+            color: rgba($color: #000000, $alpha: 0.3);
+          }
+        }
+      }
+    }
+    .style-custom {
+      width: 100%;
+      margin-top: 1.5rem;
+      .style-custom-title {
+        @include Montserrat(1.2rem, 600);
+        margin-bottom: 1.5rem;    
+      }
+      .style-custom-options {
+        display: flex;
+        justify-content: space-between;
+        .single-option {
+          background-color: $color-secondary;
+          padding: 1rem 2.3rem;
+          // width: 20%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 3rem;
+          .size-title {
+            @include Montserrat (1.1rem, 600);
+            // margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+    .color {
+      width: 100%;
+      margin-top: 1.5rem;
+      .color-title {
+        @include Montserrat(1.2rem, 600);
+        margin-bottom: 1.5rem;    
+      }
+      .color-options {
+        display: flex;
+        .single-option {
+          background-color: $color-secondary;
+          width: 4.5rem;
+          height: 4.5rem;
+          border-radius: 50%;
+          &:not(:last-of-type) {
+            margin-right: 1.5rem;
+          }
+          .size-title {
+            @include Montserrat (1.1rem, 600);
+            // margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
     .add-instructions-title {
       @include Montserrat(1.2rem, 600);
       margin-bottom: 1.5rem;
       margin-top: 1.5rem;
+      // display: none;
     }
     .instruction-form {
       width: 100%;
@@ -64,6 +201,7 @@
         border-radius: 1.5rem;
         padding: 1.5rem;
         resize: none;
+        // display: none;
         @include Montserrat(1.2rem, 500);
         &:focus {
           // outline: 0.1rem solid black;
@@ -76,87 +214,99 @@
       justify-content: space-between;
       margin-top: 1.8rem;
       .product-qty {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          margin-left: -5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: -5rem;
         .qty-title {
           @include Montserrat(1.3rem, 600);
           margin-bottom: 1.5rem;
         }
         .qty-counter-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          form {
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            form {
-              width: 100%;
+            .row {
               display: flex;
+              // flex-direction: column;
               justify-content: center;
               align-items: center;
-              .row {
+              input {
+                width: 10%;
+                text-align: center;
+                margin: 0 1rem;
+                border: none;
+                @include Montserrat(1.3rem, 600);
+              }
+              .button {
+                padding: 0.5rem 1rem;
+                border-radius: 50%;
+                cursor: pointer;
+                @include Montserrat(1.3rem, 600);
                 display: flex;
-                // flex-direction: column;
-                justify-content: center;
                 align-items: center;
-                input {
-                  width: 10%;
-                  text-align: center;
-                  margin: 0 1rem;
-                  border: none;
-                  @include Montserrat(1.3rem , 600)
-                }
-                .button {
-                  padding: 0.5rem 1rem;
-                  border-radius: 50%;
-                  cursor: pointer;
-                  @include Montserrat(1.3rem,600);
-                  display: flex;
-                  align-items: center;
-                  justify-content: center;
-                  box-shadow: 0 0 3rem rgba($color: #000000, $alpha: 0.1);
-                  user-select: none;
-                }
+                justify-content: center;
+                box-shadow: 0 0 3rem rgba($color: #000000, $alpha: 0.1);
+                user-select: none;
               }
             }
-
+          }
         }
       }
       .vr {
-          height: 5rem;
-          width: 0.1rem;
-          background-color: #676767;
+        height: 5rem;
+        width: 0.1rem;
+        background-color: #676767;
       }
       .product-price {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          // margin-left: 10rem;
-          margin-right: 2rem;
-          .price-title {
-            @include Montserrat(1.3rem, 600);
-            margin-bottom: 1.5rem;
-          }
-          .price-value {
-            @include Montserrat(1.5rem, 600);
-            color: $color-text;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // margin-left: 10rem;
+        margin-right: 2rem;
+        .price-title {
+          @include Montserrat(1.3rem, 600);
+          margin-bottom: 1.5rem;
+        }
+        .price-value {
+          @include Montserrat(1.5rem, 600);
+          color: $color-text;
         }
       }
     }
     .place-order {
-        width: 100%;
-        height: 5rem;
-        margin-top: 2rem;
-        border-radius: 1rem;
-        background-color: $color-tertairy;
-        outline: none;
-        border: none;
-        cursor: pointer;
-        @include Montserrat(1.5rem, 600);
-        &:hover {
-            background-color: $headers-color;
-            color: $color-primary;
-            transition: all 0.2s;
-        }
+      width: 100%;
+      height: 5rem;
+      margin-top: 2rem;
+      border-radius: 1rem;
+      background-color: $color-tertairy;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      @include Montserrat(1.5rem, 600);
+      &:hover {
+        background-color: $headers-color;
+        color: $color-primary;
+        transition: all 0.2s;
+      }
     }
   }
+}
+.selected-custom {
+  background-color: #eee6e6 !important;
+}
+
+.grey {
+  background-color: #9F9F9F !important;
+}
+.black {
+  background-color: black !important;
+}
+.yellow {
+  background-color: yellowgreen !important;
 }

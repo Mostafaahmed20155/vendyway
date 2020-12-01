@@ -563,6 +563,128 @@ body {
       font-weight: 400;
       color: #F54DA4;
       line-height: 2.5rem; }
+    .product-details .product-summary .custom-product-container {
+      width: 100%;
+      border-radius: 0.5rem;
+      margin-top: 2rem;
+      display: flex;
+      flex-direction: column; }
+      .product-details .product-summary .custom-product-container:first-of-type {
+        box-shadow: 0 0 3rem rgba(0, 0, 0, 0.08); }
+      .product-details .product-summary .custom-product-container:hover {
+        margin-bottom: 2rem; }
+      .product-details .product-summary .custom-product-container .custom-product-label {
+        width: 100%;
+        height: 7.5rem;
+        border-radius: 0.5rem 0.5rem 0 0;
+        background-color: #FAF7F0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2rem; }
+        .product-details .product-summary .custom-product-container .custom-product-label .custom-title {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 500;
+          font-weight: 1.6rem; }
+        .product-details .product-summary .custom-product-container .custom-product-label .custom-label-arrow {
+          width: 1rem;
+          transform: rotateZ(90deg);
+          fill: black; }
+      .product-details .product-summary .custom-product-container .custom-product-options {
+        width: 100%;
+        padding: 2rem; }
+        .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option {
+          display: flex;
+          justify-content: space-between;
+          background-color: #fcfafa;
+          padding: 1.5rem 3rem;
+          border-radius: 3rem; }
+          .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer; }
+          .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option:not(:last-of-type) {
+            margin-bottom: 1.5rem; }
+          .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option .custom-addition-title {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 500; }
+          .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option .custom-addition-value {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.3); }
+    .product-details .product-summary .product-size {
+      width: 100%;
+      margin-top: 1.5rem; }
+      .product-details .product-summary .product-size .product-size-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem; }
+      .product-details .product-summary .product-size .product-size-options {
+        display: flex;
+        justify-content: space-between; }
+        .product-details .product-summary .product-size .product-size-options .single-option {
+          background-color: #FAF7F0;
+          padding: 1rem 2.3rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 3rem; }
+          .product-details .product-summary .product-size .product-size-options .single-option .size-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem; }
+          .product-details .product-summary .product-size .product-size-options .single-option .size-value {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.3); }
+    .product-details .product-summary .style-custom {
+      width: 100%;
+      margin-top: 1.5rem; }
+      .product-details .product-summary .style-custom .style-custom-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem; }
+      .product-details .product-summary .style-custom .style-custom-options {
+        display: flex;
+        justify-content: space-between; }
+        .product-details .product-summary .style-custom .style-custom-options .single-option {
+          background-color: #FAF7F0;
+          padding: 1rem 2.3rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          border-radius: 3rem; }
+          .product-details .product-summary .style-custom .style-custom-options .single-option .size-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600; }
+    .product-details .product-summary .color {
+      width: 100%;
+      margin-top: 1.5rem; }
+      .product-details .product-summary .color .color-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 1.5rem; }
+      .product-details .product-summary .color .color-options {
+        display: flex; }
+        .product-details .product-summary .color .color-options .single-option {
+          background-color: #FAF7F0;
+          width: 4.5rem;
+          height: 4.5rem;
+          border-radius: 50%; }
+          .product-details .product-summary .color .color-options .single-option:not(:last-of-type) {
+            margin-right: 1.5rem; }
+          .product-details .product-summary .color .color-options .single-option .size-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600; }
     .product-details .product-summary .add-instructions-title {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.2rem;
@@ -665,6 +787,18 @@ body {
         background-color: #361041;
         color: #ffffff;
         transition: all 0.2s; }
+
+.selected-custom {
+  background-color: #eee6e6 !important; }
+
+.grey {
+  background-color: #9F9F9F !important; }
+
+.black {
+  background-color: black !important; }
+
+.yellow {
+  background-color: yellowgreen !important; }
 
 .cart {
   margin-top: 8rem;

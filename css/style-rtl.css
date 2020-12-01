@@ -545,7 +545,14 @@ body {
 .search-container .search-results .result-product-card .result-product-info .product-description {
   font-family: "Cairo", sans-serif;
   direction: rtl;
+}
 
+.product-details .product-summary .custom-product-container .custom-product-options .custom-product-option .custom-addition-title {
+  font-family: "Cairo", sans-serif;
+}
+
+.product-details .product-summary .custom-product-container .custom-product-options .custom-product-option .custom-addition-value {
+  font-family: "Cairo", sans-serif;
 }
 
 body {

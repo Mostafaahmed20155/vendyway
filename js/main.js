@@ -83,5 +83,5 @@ styleOption3.addEventListener('click', () => {
   styleOption3.classList.toggle('selected-custom');
 })
 styleOption4.addEventListener('click', () => {
-  singleOption4.classList.toggle('selected-custom');
+  styleOption4.classList.toggle('selected-custom');
 })

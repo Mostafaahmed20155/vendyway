@@ -119,6 +119,11 @@
         display: flex;
         justify-content: space-between;
         .single-option {
+          &:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer;
+          }
           background-color: $color-secondary;
           padding: 1rem 2.3rem;
           // width: 20%;
@@ -148,6 +153,11 @@
         display: flex;
         justify-content: space-between;
         .single-option {
+          &:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer;
+          }
           background-color: $color-secondary;
           padding: 1rem 2.3rem;
           // width: 20%;
@@ -176,6 +186,17 @@
           width: 4.5rem;
           height: 4.5rem;
           border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer;
+          }
+          img {
+            width: 2.5rem;
+          }
           &:not(:last-of-type) {
             margin-right: 1.5rem;
           }

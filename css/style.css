@@ -170,7 +170,7 @@ body {
   width: 100%;
   background-color: #ffffff; }
   .header .nav-bar {
-    height: 13rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     padding: 1rem 1.5rem;
@@ -180,7 +180,7 @@ body {
     background-color: #ffffff;
     box-shadow: 0 0.6rem 3rem rgba(0, 0, 0, 0.08); }
     .header .nav-bar .store-logo {
-      width: 15rem;
+      width: 10rem;
       margin: 0 auto; }
     .header .nav-bar .search-icon {
       margin-right: 2rem;
@@ -279,7 +279,7 @@ body {
     height: 100vh;
     flex: 1;
     background-color: orangered;
-    background-image: url("../img/instagram-food-1536589581.jpg");
+    background-image: url("../../img/instagram-food-1536589581.jpg");
     position: sticky;
     top: 0; }
 
@@ -402,7 +402,7 @@ body {
   width: 100%;
   height: 25rem;
   padding: 1.5rem;
-  margin-top: 12rem; }
+  margin-top: 8rem; }
   .cover-picture-block .cover-picture {
     width: 100%;
     height: 100%;
@@ -632,6 +632,10 @@ body {
           flex-direction: column;
           align-items: center;
           border-radius: 3rem; }
+          .product-details .product-summary .product-size .product-size-options .single-option:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer; }
           .product-details .product-summary .product-size .product-size-options .single-option .size-title {
             font-family: 'Montserrat', sans-serif;
             font-size: 1.2rem;
@@ -660,6 +664,10 @@ body {
           flex-direction: column;
           align-items: center;
           border-radius: 3rem; }
+          .product-details .product-summary .style-custom .style-custom-options .single-option:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer; }
           .product-details .product-summary .style-custom .style-custom-options .single-option .size-title {
             font-family: 'Montserrat', sans-serif;
             font-size: 1.1rem;
@@ -678,7 +686,16 @@ body {
           background-color: #FAF7F0;
           width: 4.5rem;
           height: 4.5rem;
-          border-radius: 50%; }
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+          .product-details .product-summary .color .color-options .single-option:hover {
+            transition: 0.3s;
+            background-color: #eee6e6;
+            cursor: pointer; }
+          .product-details .product-summary .color .color-options .single-option img {
+            width: 2.5rem; }
           .product-details .product-summary .color .color-options .single-option:not(:last-of-type) {
             margin-right: 1.5rem; }
           .product-details .product-summary .color .color-options .single-option .size-title {
@@ -1669,11 +1686,3 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 7rem; }
-
-
-.animate {
-  transition-duration: .3s;
-  -webkit-transition-duration: .3s; /* Safari and Chrome */
-  transition-timing-function: cubic-bezier(0.42,0,0.58,1);
-  -webkit-transition-timing-function: cubic-bezier(0.42,0,0.58,1); /* Safari and Chrome */
-}

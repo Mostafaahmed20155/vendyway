@@ -50,38 +50,24 @@ submitForms = function(){
   }, 5000);
 }
 
-const singleOption1 = document.getElementById('single-option-1');
-const singleOption2 = document.getElementById('single-option-2');
-const singleOption3 = document.getElementById('single-option-3');
-const singleOption4 = document.getElementById('single-option-4');
 
-const styleOption1 = document.getElementById('style-1');
-const styleOption2 = document.getElementById('style-2');
-const styleOption3 = document.getElementById('style-3');
-const styleOption4 = document.getElementById('style-4');
-
-singleOption1.addEventListener('click', () => {
-  singleOption1.classList.toggle('selected-custom');
-})
-singleOption2.addEventListener('click', () => {
-  singleOption2.classList.toggle('selected-custom');
-})
-singleOption3.addEventListener('click', () => {
-  singleOption3.classList.toggle('selected-custom');
-})
-singleOption4.addEventListener('click', () => {
-  singleOption4.classList.toggle('selected-custom');
-})
-
-styleOption1.addEventListener('click', () => {
-  styleOption1.classList.toggle('selected-custom');
-})
-styleOption2.addEventListener('click', () => {
-  styleOption2.classList.toggle('selected-custom');
-})
-styleOption3.addEventListener('click', () => {
-  styleOption3.classList.toggle('selected-custom');
-})
-styleOption4.addEventListener('click', () => {
-  styleOption4.classList.toggle('selected-custom');
-})
+$(document).ready(function(){
+  $(".product-size-options .single-option").click(function(){
+	  $(".product-size-options .single-option").removeClass("selected-custom");
+    $(this).addClass("selected-custom");
+  });
+  $(".style-custom-options .single-option").click(function(){
+	  $(".style-custom-options .single-option").removeClass("selected-custom");
+    $(this).addClass("selected-custom");
+  });
+  $(".color-options .single-option").click(function(){
+	  $(".color-options .single-option").removeClass("selected");
+    $(this).addClass("selected");
+  });
+  $(".custom-product-option").click(function(){
+    $(this).toggleClass("selected-custom");
+  });
+  $(".custom-product-label").click(function(){
+    $(this).parent(".custom-product-container").toggleClass("selected-list",1000);
+    });
+});

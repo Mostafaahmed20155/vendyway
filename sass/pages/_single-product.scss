@@ -54,8 +54,10 @@
       width: 100%;
       // min-height: 10rem;
       border-radius: 0.5rem;
-      &:first-of-type {
-        box-shadow: 0 0 3rem rgba($color: #000000, $alpha: 0.08);
+      transition: all .3s;
+      .custom-product-options {
+        display: none;
+        transition: all .3s;
       }
       margin-top: 2rem;
       display: flex;
@@ -72,6 +74,7 @@
         align-items: center;
         justify-content: space-between;
         padding: 2rem;
+        cursor: pointer;
         .custom-title {
           @include Montserrat(500, 1.6rem);
         }
@@ -330,4 +333,18 @@
 }
 .yellow {
   background-color: yellowgreen !important;
+}
+
+.single-option img {
+  display: none;
+}
+
+
+.selected img{
+  display: block;
+}
+
+.product-details .product-summary .selected-list .custom-product-options{
+  display: block;
+  transition: all .3s;
 }

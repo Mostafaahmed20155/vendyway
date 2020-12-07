@@ -1,0 +1,13 @@
+/* //FLICKTY CARESOUL */
+.carousel-cell {
+    margin-right: 2.5rem !important;
+}
+
+.flickity-viewport {
+    height: 28rem !important;
+}
+
+.flickity-slider {
+    display: flex;
+    align-items: center;
+}

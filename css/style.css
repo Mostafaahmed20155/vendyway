@@ -503,8 +503,6 @@ body {
         background-color: black;
         color: #F8DCDB;
         transition: all .2s; }
-  .category__products {
-    display: flex; }
 
 .products-in-category {
   display: flex;
@@ -1641,8 +1639,6 @@ body {
       font-family: 'Poppins', sans-serif;
       font-size: 1.4rem;
       font-weight: 400; }
-  .categories-container-theme-3 .categories-theme-3-cards {
-    display: flex; }
 
 .products-in-category-theme-4 {
   display: flex;

@@ -113,14 +113,15 @@ body {
     transition: all .3s; }
 
 .category__products-card {
-  width: 15rem !important;
+  width: 17rem !important;
   height: 26rem;
   border-radius: 1rem;
   background-color: #ffffff;
   box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
-  padding: 1rem; }
+  padding: 1rem;
+  position: relative; }
   .category__products-card .product-img__container {
     width: 100%;
     height: 12rem; }
@@ -129,6 +130,26 @@ body {
       width: 100%;
       height: 100%;
       object-fit: cover; }
+  .category__products-card .favourite {
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 1rem 0 1rem; }
+  .category__products-card .add-to-favourite {
+    width: 1.9rem;
+    margin: auto;
+    cursor: pointer;
+    z-index: 99999;
+    fill: #F54DA4;
+    transition: all .3s; }
+    .category__products-card .add-to-favourite:hover {
+      fill: #F8DCDB; }
   .category__products-card .product-name {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
@@ -243,6 +264,8 @@ body {
       font-weight: 600;
       color: #000000;
       margin-left: 3.5rem; }
+    .sidenav a .side-bar__selection .selection-icon {
+      width: 18.951px; }
 
 .enable-one-tapping {
   margin-left: 5rem;
@@ -536,7 +559,8 @@ body {
     height: 100%;
     object-fit: cover; }
   .product-details .product-summary {
-    padding: 1.5rem; }
+    padding: 1.5rem;
+    position: relative; }
     .product-details .product-summary .product-name {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
@@ -561,16 +585,36 @@ body {
       font-weight: 400;
       color: #F54DA4;
       line-height: 2.5rem; }
+    .product-details .product-summary .favourite {
+      position: absolute;
+      width: 8rem;
+      height: 8rem;
+      background-color: rgba(255, 255, 255, 0.8);
+      right: 0;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0 1rem 0 1rem; }
+    .product-details .product-summary .add-to-favourite {
+      width: 2.5rem;
+      margin: auto;
+      cursor: pointer;
+      z-index: 99999;
+      fill: #F54DA4;
+      transition: all 0.3s; }
+      .product-details .product-summary .add-to-favourite:hover {
+        fill: #F8DCDB; }
     .product-details .product-summary .custom-product-container {
       width: 100%;
       border-radius: 0.5rem;
-      transition: all .3s;
+      transition: all 0.3s;
       margin-top: 2rem;
       display: flex;
       flex-direction: column; }
       .product-details .product-summary .custom-product-container .custom-product-options {
         display: none;
-        transition: all .3s; }
+        transition: all 0.3s; }
       .product-details .product-summary .custom-product-container:hover {
         margin-bottom: 2rem; }
       .product-details .product-summary .custom-product-container .custom-product-label {
@@ -810,7 +854,7 @@ body {
   background-color: #eee6e6 !important; }
 
 .grey {
-  background-color: #9F9F9F !important; }
+  background-color: #9f9f9f !important; }
 
 .black {
   background-color: black !important; }
@@ -826,7 +870,7 @@ body {
 
 .product-details .product-summary .selected-list .custom-product-options {
   display: block;
-  transition: all .3s; }
+  transition: all 0.3s; }
 
 .cart {
   margin-top: 8rem;
@@ -1149,7 +1193,8 @@ body {
         display: flex;
         flex-direction: column;
         height: 100%;
-        flex: 1; }
+        flex: 1;
+        position: relative; }
         .search-container .search-results .result-product-card .result-product-info .category-title {
           font-family: 'Montserrat', sans-serif;
           font-size: 1rem;
@@ -1168,13 +1213,34 @@ body {
           font-weight: 600;
           margin-top: 0.7rem;
           color: #C2B7C6;
-          line-height: 1.5rem; }
+          line-height: 1.5rem;
+          width: 90%; }
         .search-container .search-results .result-product-card .result-product-info .product-price {
           color: #F54DA4;
           font-family: 'Montserrat', sans-serif;
           font-size: 1.2rem;
           font-weight: 600;
           margin-bottom: 1rem; }
+        .search-container .search-results .result-product-card .result-product-info .favourite {
+          position: absolute;
+          width: 4rem;
+          height: 4rem;
+          background-color: rgba(255, 255, 255, 0.8);
+          right: 0;
+          top: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 0 1rem 0 1rem; }
+        .search-container .search-results .result-product-card .result-product-info .add-to-favourite {
+          width: 1.9rem;
+          margin: auto;
+          cursor: pointer;
+          z-index: 99999;
+          fill: #F54DA4;
+          transition: all .3s; }
+          .search-container .search-results .result-product-card .result-product-info .add-to-favourite:hover {
+            fill: #F8DCDB; }
         .search-container .search-results .result-product-card .result-product-info .add-to-cart {
           display: flex;
           align-items: center;
@@ -1555,7 +1621,28 @@ body {
       padding-left: 0.5rem;
       padding-top: 0.5rem;
       height: 100%;
-      flex: 1; }
+      flex: 1;
+      position: relative; }
+      .products-container .theme-2-product-card .theme-2-product-info .favourite {
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        background-color: rgba(255, 255, 255, 0.8);
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 1rem 0 1rem; }
+      .products-container .theme-2-product-card .theme-2-product-info .add-to-favourite {
+        width: 1.9rem;
+        margin: auto;
+        cursor: pointer;
+        z-index: 99999;
+        fill: #F54DA4;
+        transition: all .3s; }
+        .products-container .theme-2-product-card .theme-2-product-info .add-to-favourite:hover {
+          fill: #F8DCDB; }
       .products-container .theme-2-product-card .theme-2-product-info .category-title {
         font-family: 'Montserrat', sans-serif;
         font-size: 1rem;

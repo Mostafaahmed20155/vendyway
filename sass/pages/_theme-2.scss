@@ -40,6 +40,30 @@
       padding-top: 0.5rem;
       height: 100%;
       flex: 1;
+      position: relative;
+      .favourite {
+        position: absolute;
+        width: 4rem;
+        height: 4rem;
+        background-color: rgba($color: $color-primary, $alpha: 0.8);
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 0 1rem 0 1rem ;
+    }
+    .add-to-favourite {
+        width: 1.9rem;
+        margin: auto;
+        cursor: pointer;
+        z-index: 99999;
+        fill: $color-text;
+        transition: all .3s;
+        &:hover {
+            fill: $color-tertairy
+        }
+    }
       .category-title {
         @include Montserrat(1rem, 600);
         color: #b3b3b3;

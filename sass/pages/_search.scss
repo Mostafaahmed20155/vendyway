@@ -65,6 +65,7 @@
                 // padding: 1.5rem;
                 height: 100%;
                 flex: 1;
+                position: relative;
                 .category-title {
                   @include Montserrat(1rem, 600);
                   color: #b3b3b3;
@@ -82,11 +83,35 @@
                     margin-top: 0.7rem;
                     color: #C2B7C6;
                     line-height: 1.5rem;
+                    width: 90%;
                 }
                 .product-price {
                   color: $color-text;
                   @include Montserrat(1.2rem, 600);
                   margin-bottom: 1rem;
+                }
+                .favourite {
+                    position: absolute;
+                    width: 4rem;
+                    height: 4rem;
+                    background-color: rgba($color: $color-primary, $alpha: 0.8);
+                    right: 0;
+                    top: 0;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 0 1rem 0 1rem ;
+                }
+                .add-to-favourite {
+                    width: 1.9rem;
+                    margin: auto;
+                    cursor: pointer;
+                    z-index: 99999;
+                    fill: $color-text;
+                    transition: all .3s;
+                    &:hover {
+                        fill: $color-tertairy
+                    }
                 }
                 .add-to-cart {
                     // width: 12.4rem;

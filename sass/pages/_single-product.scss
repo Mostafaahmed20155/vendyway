@@ -8,6 +8,29 @@
     background-color: saddlebrown;
     position: relative;
     // margin-top: 7rem;
+    .favourite {
+      position: absolute;
+      width: 5rem;
+      height: 5rem;
+      background-color: rgba($color: $color-primary, $alpha: 0.9);
+      right: 1.5rem;
+      bottom: 5%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 0.5rem;
+    }
+    .add-to-favourite {
+      width: 2.5rem;
+      margin: auto;
+      cursor: pointer;
+      z-index: 99999;
+      fill: black;
+      transition: all 0.3s;
+      &:hover {
+        fill: $color-secondary;
+      }
+    }
     .back-btn-cont {
       background-color: rgba($color: #ffffff, $alpha: 0.9);
       width: 5rem;
@@ -52,29 +75,7 @@
       color: $color-text;
       line-height: 2.5rem;
     }
-    .favourite {
-      position: absolute;
-      width: 8rem;
-      height: 8rem;
-      background-color: rgba($color: $color-primary, $alpha: 0.8);
-      right: 0;
-      top: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      border-radius: 0 1rem 0 1rem;
-    }
-    .add-to-favourite {
-      width: 2.5rem;
-      margin: auto;
-      cursor: pointer;
-      z-index: 99999;
-      fill: $color-text;
-      transition: all 0.3s;
-      &:hover {
-        fill: $color-tertairy;
-      }
-    }
+
     .custom-product-container {
       width: 100%;
       // min-height: 10rem;

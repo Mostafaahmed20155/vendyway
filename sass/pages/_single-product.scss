@@ -168,6 +168,9 @@
             @include Montserrat(1.1rem, 600);
             color: rgba($color: #000000, $alpha: 0.3);
           }
+          input[type=radio] {
+            display: none;
+          } 
         }
       }
     }
@@ -198,6 +201,9 @@
             @include Montserrat(1.1rem, 600);
             // margin-bottom: 0.5rem;
           }
+          input[type=radio] {
+            display: none;
+          } 
         }
       }
     }
@@ -218,6 +224,9 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          input[type=radio] {
+            display: none;
+          } 
           &:hover {
             transition: 0.3s;
             background-color: #eee6e6;
@@ -276,7 +285,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          form {
+          .qty-form {
             width: 100%;
             display: flex;
             justify-content: center;
@@ -368,9 +377,9 @@
       &.sendtocart {
         .cart-item {
           display:block;
-          animation: xAxis 1s forwards cubic-bezier(1.000,0.440,0.840,0.165);
+          animation: xAxis 1s alternate forwards cubic-bezier(1.000,0.440,0.840,0.165);
           &:before {
-            animation: yAxis 1s alternate forwards cubic-bezier(0.165, 0.840, 0.440, 1.000);
+            animation: yAxis 1s  forwards cubic-bezier(0.165, 0.840, 0.440, 1.000);
           }
         }
       }
@@ -406,15 +415,15 @@
 // TRIAL ADD TO CART
 @keyframes xAxis {
   100% {
-    // transform: translateX(calc(-10vw + 95px));
-    transform: translateX(calc(-10vw + 105px));
+    // transform: translateX(calc(10vw + 105pxx));
+    transform: translateX(calc(-85vw));
   }
 }
 
 @keyframes yAxis {
   100% {
     // transform: translateY(calc(-75vh - 75px));
-    transform: translateY(calc(-75vh - 75px));
+    transform: translateY(calc(-100vh));
   }
 }
 
@@ -432,7 +441,7 @@
     transform:translateX(0);
   }
 }
-.cart {
+.product-cart {
   position: absolute;;
   top:2rem;
   right:2rem;
@@ -444,10 +453,7 @@
   justify-content:center;
   border-radius:5px;
   margin-top: 0 !important;
-  i {
-    font-size:25px;
-    color:white;
-  }
+
   &:before {
     content:attr(data-totalitems);
     font-size:12px;

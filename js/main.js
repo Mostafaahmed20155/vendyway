@@ -76,6 +76,9 @@ $(document).ready(function () {
     // $("input[name=size]").removeAttr("checked")
     // $(this).find("input").attr("checked","checked");
     // console.log($(this).find("input").attr("value"))
+  });
+  $('.custom-product-option').click(function() {
+    $(this).find("input").prop("checked", !$(this).find("input").prop("checked") );
   })
 });
 

@@ -904,12 +904,11 @@ body {
   transition: all 0.3s; }
 
 @keyframes xAxis {
-  100% {
-    transform: translateX(calc(-85vw)); } }
+  100% { } }
 
 @keyframes yAxis {
   100% {
-    transform: translateY(calc(-100vh)); } }
+    transform: translateY(calc(-85vh)); } }
 
 @keyframes shakeCart {
   25% {

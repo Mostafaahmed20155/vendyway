@@ -416,14 +416,14 @@
 @keyframes xAxis {
   100% {
     // transform: translateX(calc(10vw + 105pxx));
-    transform: translateX(calc(-85vw));
+    // transform: translateX(calc(-85vw));
   }
 }
 
 @keyframes yAxis {
   100% {
     // transform: translateY(calc(-75vh - 75px));
-    transform: translateY(calc(-100vh));
+    transform: translateY(calc(-85vh));
   }
 }
 

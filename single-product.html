@@ -43,32 +43,32 @@
 
                     <h2 class="description-title">Description</h2>
                     <p class="product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been. Lorem Ipsum is simply dummy text of </p>
-                    <h2 class="add-instructions-title">Add Instructions (Optional)</h2>
                     <form action="#" class="instruction-form" id="instructions-form">
+                        <h2 class="add-instructions-title">Add Instructions (Optional)</h2>
                         <textarea name="instructions" id="instructions" cols="30" rows="5" class="instructions" placeholder="Please write down your instructions here"></textarea>
-                    </form>
-                    <div class="product-qty-price">
-                        <div class="product-qty">
-                            <h4 class="qty-title">Quantity</h4>
-                            <div class="qty-counter-container">
-                                <form action="#" id="qty-form">
-                                    <div class="row">
-                                        <div class="inc button">+</div>
-                                        <input type="text" name="prod-qty" id="prod-qty" value="1" readonly>
-                                        <div class="dec button">-</div>
+                        <div class="product-qty-price">
+                            <div class="product-qty">
+                                <h4 class="qty-title">Quantity</h4>
+                                <div class="qty-counter-container">
+                                    <div class="qty-form">
+                                        <div class="row">
+                                            <div class="inc button">+</div>
+                                            <input type="text" name="prod-qty" id="prod-qty" value="1" readonly>
+                                            <div class="dec button">-</div>
+                                        </div>
                                     </div>
-                                </form>
+                                </div>
+                            </div>
+                            <div class="vr"></div>
+                            <div class="product-price">
+                                <h4 class="price-title">Price</h4>
+                                <h5 class="price-value">KWD 0.950</h5>
                             </div>
                         </div>
-                        <div class="vr"></div>
-                        <div class="product-price">
-                            <h4 class="price-title">Price</h4>
-                            <h5 class="price-value">KWD 0.950</h5>
-                        </div>
-                    </div>
-                    <button class="place-order" id="addtocart" onclick="submitForms()">Place Order Now
-                        <span class="cart-item"></span>
-                    </button>
+                        <button class="place-order" id="addtocart" onclick="submitForms()">Place Order Now
+                            <span class="cart-item"></span>
+                        </button>
+                    </form>
                 </div>
             </div>
         </section>

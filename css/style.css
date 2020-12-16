@@ -645,6 +645,8 @@ body {
           background-color: #fcfafa;
           padding: 1.5rem 3rem;
           border-radius: 3rem; }
+          .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option input[type=checkbox] {
+            display: none; }
           .product-details .product-summary .custom-product-container .custom-product-options .custom-product-option:hover {
             transition: 0.3s;
             background-color: #eee6e6;
@@ -908,7 +910,8 @@ body {
 
 @keyframes yAxis {
   100% {
-    transform: translateY(calc(-85vh)); } }
+    transform: translateY(calc(-85vh));
+    opacity: 0; } }
 
 @keyframes shakeCart {
   25% {

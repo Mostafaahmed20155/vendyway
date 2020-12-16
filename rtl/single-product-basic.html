@@ -46,7 +46,76 @@
                     <p class="product-description">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي/p>
                     <h2 class="add-instructions-title">إضافة تعليمات (اختياري)</h2>
                     <form action="#" class="instruction-form" id="instructions-form">
-                        <textarea name="instructions" id="instructions" cols="30" rows="5" class="instructions" placeholder="الرجاء كتابة التعليمات الخاصة بك هنا ..."></textarea>
+                        <div class="product-size">
+                            <h1 class="product-size-title">المقاس</h1>
+                            <div class="product-size-options">
+                                <div class="single-option" id="single-option-1">
+                                    <h1 class="size-title">XS</h1>
+                                    <h1 class="size-value">KWD 35</h1>
+                                    <input type="radio" name="size" id="xs" class="prod-size" value="xs">
+                                </div>
+                                <div class="single-option" id="single-option-2">
+                                    <h1 class="size-title">S</h1>
+                                    <h1 class="size-value">KWD 35</h1>
+                                    <input type="radio" name="size" id="s" class="prod-size" value="s">
+                                </div>
+                                <div class="single-option" id="single-option-3">
+                                    <h1 class="size-title">L</h1>
+                                    <h1 class="size-value">KWD 35</h1>
+                                    <input type="radio" name="size" id="l" class="prod-size" value="l">
+                                </div>
+                                <div class="single-option" id="single-option-4">
+                                    <h1 class="size-title">XL</h1>
+                                    <h1 class="size-value">KWD 35</h1>
+                                    <input type="radio" name="size" id="Xl" class="prod-size" value="xl">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="style-custom">
+                            <h1 class="style-custom-title">طراز</h1>
+                            <div class="style-custom-options">
+                                <div class="single-option selected-custom" id="style-1">
+                                    <h1 class="size-title">البسيط</h1>
+                                    <input type="radio" name="style" class="prod-style" value="minimal">
+                                </div>
+                                <div class="single-option" id="style-2">
+                                    <h1 class="size-title">البوهيمي</h1>
+                                    <input type="radio" name="style" class="prod-style" value="bohemian">
+                                </div>
+                                <div class="single-option" id="style-3">
+                                    <h1 class="size-title">زهري</h1>
+                                    <input type="radio" name="style" class="prod-style" value="floral">
+                                </div>
+                                <div class="single-option" id="style-4">
+                                    <h1 class="size-title">أخري</h1>
+                                    <input type="radio" name="style" class="prod-style" value="other">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="color">
+                            <h1 class="color-title">اللون</h1>
+                            <div class="color-options">
+                                <div class="single-option grey selected">
+                                    <img src="../img/tick (2).svg" alt="tick" class="tick-img">
+                                    <input type="radio" name="prod-color" class="prod-color" value="grey">
+                                </div>
+                                <div class="single-option black">
+                                    <img src="../img/tick (2).svg" alt="tick" class="tick-img">
+                                    <input type="radio" name="prod-color" class="prod-color" value="black">
+                                </div>
+                                <div class="single-option blue">
+                                    <img src="../img/tick (2).svg" alt="tick" class="tick-img">
+                                    <input type="radio" name="prod-color" class="prod-color" value="blue">
+                                </div>
+                                <div class="single-option yellow">
+                                    <img src="../img/tick (2).svg" alt="tick" class="tick-img">
+                                    <input type="radio" name="prod-color" class="prod-color" value="yellow">
+                                </div>
+                            </div>
+                        </div>
+                        <h2 class="add-instructions-title">اضف تعليميات ( أختياري )</h2>
+                        <textarea name="instructions" id="instructions" cols="30" rows="5" class="instructions"
+                            placeholder="من فضلك اكتب تعليماتك هنا ..."></textarea>
                         <div class="product-qty-price">
                             <div class="product-qty">
                                 <h4 class="qty-title">الكمية</h4>
@@ -63,7 +132,7 @@
                             <div class="vr"></div>
                             <div class="product-price">
                                 <h4 class="price-title">السعر</h4>
-                                <h5 class="price-value">0.950 د.ك </h5>
+                                <h5 class="price-value">0.950 د . ك </h5>
                             </div>
                         </div>
                         <button class="place-order" id="addtocart">أضف الي السلة

@@ -25,7 +25,7 @@ body {
   margin-left: 1rem;
   direction: rtl;
 }
-
+.product-details .product-img-container .back-btn-cont
 .branch-name-details .branch-info .working-hours-container .working-days,
 .branch-name-details .branch-info .working-hours-container .opening-days {
   font-family: "Cairo", sans-serif;
@@ -518,6 +518,7 @@ body {
 .product-details .product-summary .product-qty-price .product-qty {
   margin-left: 0;
   margin-right: 0rem;
+  width: 50%;
 }
 
 .header .nav-bar .en-selection {
@@ -525,12 +526,12 @@ body {
   margin-left: 2rem;
 }
 
-.product-details .product-img-container .back-btn-cont {
+/* .product-details .product-img-container .back-btn-cont {
   top: 5%;
   left: unset;
   right: 1.5rem;
   transform: rotateY(180deg);
-}
+} */
 
 .products-container .theme-2-product-card .theme-2-product-info .product-description {
   font-family: "Cairo", sans-serif;
@@ -560,6 +561,23 @@ body {
   left: 1.5rem !important;
   border-radius: 0.5rem !important;
 }
+
+.style-custom-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-size-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.color-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-details .product-summary .style-custom .style-custom-options .single-option .size-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
 
 body {
   scroll-behavior: smooth;

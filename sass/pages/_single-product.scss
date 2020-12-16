@@ -119,6 +119,9 @@
           background-color: #fcfafa;
           padding: 1.5rem 3rem;
           border-radius: 3rem;
+          input[type=checkbox] {
+            display: none;
+          } 
           &:hover {
             transition: 0.3s;
             background-color: #eee6e6;
@@ -424,6 +427,7 @@
   100% {
     // transform: translateY(calc(-75vh - 75px));
     transform: translateY(calc(-85vh));
+    opacity: 0;
   }
 }
 

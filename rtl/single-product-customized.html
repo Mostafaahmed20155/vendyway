@@ -28,6 +28,9 @@
                     <div class="favourite">
                         <svg class="add-to-favourite" viewBox="0 -28 512.00002 512" xmlns="http://www.w3.org/2000/svg"><path d="m471.382812 44.578125c-26.503906-28.746094-62.871093-44.578125-102.410156-44.578125-29.554687 0-56.621094 9.34375-80.449218 27.769531-12.023438 9.300781-22.917969 20.679688-32.523438 33.960938-9.601562-13.277344-20.5-24.660157-32.527344-33.960938-23.824218-18.425781-50.890625-27.769531-80.445312-27.769531-39.539063 0-75.910156 15.832031-102.414063 44.578125-26.1875 28.410156-40.613281 67.222656-40.613281 109.292969 0 43.300781 16.136719 82.9375 50.78125 124.742187 30.992188 37.394531 75.535156 75.355469 127.117188 119.3125 17.613281 15.011719 37.578124 32.027344 58.308593 50.152344 5.476563 4.796875 12.503907 7.4375 19.792969 7.4375 7.285156 0 14.316406-2.640625 19.785156-7.429687 20.730469-18.128907 40.707032-35.152344 58.328125-50.171876 51.574219-43.949218 96.117188-81.90625 127.109375-119.304687 34.644532-41.800781 50.777344-81.4375 50.777344-124.742187 0-42.066407-14.425781-80.878907-40.617188-109.289063zm0 0"/></svg>
                     </div>
+                    <div id="cart" class="product-cart" data-totalitems="0">
+                        <img src="../img/shopping-cart-empty-side-view.svg" alt="cart" class="cart-icon">
+                    </div>
                     <a href="../rtl/index.html">
                         <div class="back-btn-cont">
                             <img src="../img/Icon feather-arrow-left.svg" alt="back-icon" class="back-icon">
@@ -43,85 +46,200 @@
                     <h2 class="description-title">الوصف</h2>
                     <p class="product-description">هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي
                         القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم
-                        استخدام طريقة لوريم إيبسوم لأنها تعطي/p>
-                    <div class="custom-product-container">
-                        <div class="custom-product-label">
-                            <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
-                            <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
-                        </div>
-                        <div class="custom-product-options">
-                            <div class="custom-product-option selected-custom">
-                                <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
-                                <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                        استخدام طريقة لوريم إيبسوم لأنها تعطي</p>
+                        <form action="#" class="instruction-form" id="instructions-form">
+                        <div class="custom-product-container">
+                            <div class="custom-product-label">
+                                <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
+                                <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
                             </div>
-                            <div class="custom-product-option">
-                                <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
-                                <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                            <div class="custom-product-options">
+                                <div class="custom-product-option selected-custom">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
                             </div>
-                            <div class="custom-product-option">
-                                <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
-                                <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                        </div>
+                        <div class="custom-product-container">
+                            <div class="custom-product-label">
+                                <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
+                                <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
                             </div>
-                            <div class="custom-product-option">
-                                <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
-                                <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                            <div class="custom-product-options">
+                                <div class="custom-product-option selected-custom">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
                             </div>
-                            <div class="custom-product-option">
-                                <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
-                                <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                        </div>
+                        <div class="custom-product-container">
+                            <div class="custom-product-label">
+                                <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
+                                <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
+                            </div>
+                            <div class="custom-product-options">
+                                <div class="custom-product-option selected-custom">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="custom-product-container">
-                        <div class="custom-product-label">
-                            <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
-                            <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
+                        <div class="custom-product-container">
+                            <div class="custom-product-label">
+                                <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
+                                <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
+                            </div>
+                            <div class="custom-product-options">
+                                <div class="custom-product-option selected-custom">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="custom-product-container">
-                        <div class="custom-product-label">
-                            <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
-                            <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
+                        <div class="custom-product-container">
+                            <div class="custom-product-label">
+                                <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
+                                <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
+                            </div>
+                            <div class="custom-product-options">
+                                <div class="custom-product-option selected-custom">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                                <div class="custom-product-option">
+                                    <h1 class="custom-addition-title">شوكولاته بيضاء</h1>
+                                    <h2 class="custom-addition-value">0.950 د.ك</ h2>
+                                        <input type="checkbox" name="customized-1" id="customized-1">  
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                    <div class="custom-product-container">
-                        <div class="custom-product-label">
-                            <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
-                            <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
-                        </div>
-                    </div>
-                    <div class="custom-product-container">
-                        <div class="custom-product-label">
-                            <h1 class="custom-title">اختيارك من صلصة الشوكولاتة</h1>
-                            <img src="../img/Icon ionic-ios-arrow-right-red.svg" alt="arrow" class="custom-label-arrow">
-                        </div>
-                    </div>
-
-                    <h2 class="add-instructions-title">إضافة تعليمات (اختياري)</h2>
-                    <form action="#" class="instruction-form" id="instructions-form">
+                        <h2 class="add-instructions-title">إضافة تعليمات (اختياري)</h2>
                         <textarea name="instructions" id="instructions" cols="30" rows="5" class="instructions"
                             placeholder="الرجاء كتابة التعليمات الخاصة بك هنا ..."></textarea>
-                    </form>
-                    <div class="product-qty-price">
-                        <div class="product-qty">
-                            <h4 class="qty-title">الكمية</h4>
-                            <div class="qty-counter-container">
-                                <form action="#" id="qty-form">
-                                    <div class="row">
-                                        <div class="inc button">+</div>
-                                        <input type="text" name="prod-qty" id="prod-qty" value="1" readonly>
-                                        <div class="dec button">-</div>
+                            <div class="product-qty-price">
+                                <div class="product-qty">
+                                    <h4 class="qty-title">الكمية</h4>
+                                    <div class="qty-counter-container">
+                                        <div class="qty-form">
+                                            <div class="row">
+                                                <div class="inc button">+</div>
+                                                <input type="text" name="prod-qty" id="prod-qty" value="1" readonly>
+                                                <div class="dec button">-</div>
+                                            </div>
+                                        </div>
                                     </div>
-                                </form>
+                                </div>
+                                <div class="vr"></div>
+                                <div class="product-price">
+                                    <h4 class="price-title">السعر</h4>
+                                    <h5 class="price-value">0.950 د.ك </h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="vr"></div>
-                        <div class="product-price">
-                            <h4 class="price-title">السعر</h4>
-                            <h5 class="price-value">0.950 د.ك </h5>
-                        </div>
-                    </div>
-                    <button class="place-order" onclick="submitForms()">اضافة الطلب الأن</button>
+                            <button class="place-order" id="addtocart">أضف الي السلة
+                                <span class="cart-item"></span>
+                            </button>
+                    </form>
+
                 </div>
             </div>
         </section>

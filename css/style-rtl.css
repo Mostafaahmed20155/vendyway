@@ -578,6 +578,9 @@ body {
   font-family: "Cairo", sans-serif !important;
 }
 
+.product-details .product-img-container .back-btn-cont {
+  position: absolute;
+}
 
 body {
   scroll-behavior: smooth;

@@ -425,44 +425,11 @@ body {
   .categories-container__card {
     width: 100% !important; } }
 
-@media screen and (max-width: 1440px) {
-  .bg-container .left-panel .webinar-title {
-    font-size: 7rem;
-    line-height: 7rem; }
-  .company-logo-white {
-    width: 60%; } }
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .form__group {
-    width: 100%; } }
-
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .bg-container {
-    flex-direction: column; }
-  .bg-container .left-panel {
-    width: 100%;
-    height: 100%; }
-  .bg-container .left-panel .webinar-title {
-    text-align: center;
-    font-size: 4rem;
-    line-height: 4rem;
-    margin-top: 10rem; }
-  .bg-container .left-panel .company-logo-white {
-    left: 50%;
-    transform: translateX(-50%); }
-  .company-logo-white {
-    width: 25rem; }
-  .bg-container .right-panel {
-    width: 100%; }
-  .form__group {
-    width: 100%; }
-  .bg-container .right-panel__header {
-    font-size: 3.2rem;
-    margin-top: 2rem; }
-  .bg-container .right-panel__content-box {
-    width: 80%; }
-  .bg-container .right-panel .form-btn {
-    margin: 2.5rem 0; } }
+@media only screen and (max-width: 768px) {
+  .sign-in-up .signup-form .input-field input {
+    width: 100% !important; }
+  .sign-in-up .signup-form .sign-up-btn {
+    width: 100% !important; } }
 
 .cover-picture-block {
   width: 100%;
@@ -1910,3 +1877,90 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin-top: 7rem; }
+
+.sign-in-up {
+  width: 100%;
+  padding: 3rem; }
+  .sign-in-up .logo-box {
+    width: 15rem; }
+  .sign-in-up .secondary-header {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #b6b6b6;
+    margin-top: 5rem; }
+  .sign-in-up .primary-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    font-weight: 600; }
+  .sign-in-up .tertairy-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #b6b6b6;
+    margin-top: 1rem; }
+    .sign-in-up .tertairy-header a {
+      color: #4848ff; }
+  .sign-in-up .signup-form {
+    margin-top: 3rem; }
+    .sign-in-up .signup-form .input-field {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 1.5rem; }
+      .sign-in-up .signup-form .input-field label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 0.5rem; }
+      .sign-in-up .signup-form .input-field .dummy {
+        position: relative; }
+        .sign-in-up .signup-form .input-field .dummy::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 1rem;
+          height: 100%;
+          background-color: #26285d;
+          border-radius: 0.5rem 0 0 0.5rem; }
+      .sign-in-up .signup-form .input-field input {
+        width: 100%;
+        padding: 1rem 1rem 1rem 2rem;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+        border-radius: 0.5rem;
+        border: 1px solid #b6b6b6;
+        position: relative; }
+    .sign-in-up .signup-form .sign-up-btn {
+      width: 100%;
+      padding: 1.5rem;
+      background-color: #26285d;
+      border-radius: 0.5rem;
+      color: #ffffff;
+      margin-top: 1.5rem;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 500;
+      border: none; }
+      .sign-in-up .signup-form .sign-up-btn:hover {
+        background-color: #F54DA4;
+        transition: all 0.3s; }
+    .sign-in-up .signup-form .terms-conditions {
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.2rem;
+      font-weight: 500;
+      color: #b6b6b6;
+      margin-top: 1rem; }
+      .sign-in-up .signup-form .terms-conditions a {
+        color: #ff8533;
+        font-weight: 600; }
+        .sign-in-up .signup-form .terms-conditions a:hover {
+          transition: all .3s;
+          color: #4848ff; }
+
+.main__landing-picture--picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }

@@ -431,6 +431,578 @@ body {
   .sign-in-up .signup-form .sign-up-btn {
     width: 100% !important; } }
 
+.premium-header {
+  margin-top: 2rem;
+  padding: 1.5rem; }
+  .premium-header .premium-nav-bar {
+    width: 100%;
+    display: flex;
+    align-items: center; }
+  .premium-header .premium-search-icon {
+    margin-left: auto;
+    margin-right: 1rem; }
+  .premium-header .cart-icon {
+    margin-right: 1rem;
+    position: relative; }
+  .premium-header .profile-pic {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%; }
+
+.premium-slider {
+  width: 100%;
+  height: 26rem;
+  padding: 1.5rem;
+  margin-top: 2rem; }
+  .premium-slider .cover-slider {
+    background-image: url("../../img/watch-slider.png");
+    border-radius: 1.5rem;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat; }
+    .premium-slider .cover-slider .gradient-cover {
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem;
+      border-radius: 1.5rem;
+      background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      .premium-slider .cover-slider .gradient-cover .img-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        line-height: 2.5rem; }
+      .premium-slider .cover-slider .gradient-cover .pagination {
+        display: flex; }
+        .premium-slider .cover-slider .gradient-cover .pagination .dot {
+          width: 1rem;
+          height: 0.5rem;
+          background-color: #ffffff;
+          border-radius: 2rem; }
+          .premium-slider .cover-slider .gradient-cover .pagination .dot:not(:last-of-type) {
+            margin-right: 0.5rem; }
+        .premium-slider .cover-slider .gradient-cover .pagination .img-selected {
+          width: 1.8rem; }
+
+.premium-products {
+  width: 100%;
+  min-height: 8rem;
+  padding: 1.5rem; }
+  .premium-products__title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700; }
+  .premium-products .selections-slider {
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex; }
+    .premium-products .selections-slider .selection {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      margin-right: 1.5rem;
+      padding: 0.5rem 1rem;
+      border-radius: 1rem; }
+    .premium-products .selections-slider .selected-category {
+      color: #ffffff;
+      background-color: #474141; }
+  .premium-products .premium-products-slider {
+    width: 100%;
+    min-height: 8rem; }
+    .premium-products .premium-products-slider .premium-product-card {
+      width: 19.6rem;
+      height: 27.7rem;
+      border-radius: 1rem;
+      margin-top: 2.5rem;
+      box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      position: relative; }
+      .premium-products .premium-products-slider .premium-product-card .product-img-cont {
+        width: 100%;
+        height: 17.8rem;
+        position: relative; }
+      .premium-products .premium-products-slider .premium-product-card .product-img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0; }
+      .premium-products .premium-products-slider .premium-product-card .price-tag {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        background-color: #474141;
+        border-radius: 0.5rem;
+        z-index: 999;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 1rem; }
+      .premium-products .premium-products-slider .premium-product-card .product-name {
+        margin-top: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem; }
+      .premium-products .premium-products-slider .premium-product-card .product-description {
+        margin-left: 1rem;
+        color: #c2b7c6;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600; }
+      .premium-products .premium-products-slider .premium-product-card .color-selections {
+        width: 100%;
+        display: flex;
+        margin-top: 0.8rem;
+        margin-left: 0.8rem; }
+        .premium-products .premium-products-slider .premium-product-card .color-selections .color-1 {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          background-color: #ffe2e2;
+          margin-right: 1.1rem; }
+        .premium-products .premium-products-slider .premium-product-card .color-selections .color-2 {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #bad7df;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-products .premium-products-slider .premium-product-card .color-selections .color-3 {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #f6f6f6;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-products .premium-products-slider .premium-product-card .color-selections .color-4 {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #bcbcbc;
+          border-radius: 50%; }
+      .premium-products .premium-products-slider .premium-product-card .add-to-card-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer; }
+  .premium-products .category-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem; }
+  .premium-products .premiun-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .premium-products .premiun-products-list .premium-product-card {
+      width: 47%;
+      height: 27.7rem;
+      border-radius: 1rem;
+      box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      position: relative;
+      margin-bottom: 1rem; }
+      .premium-products .premiun-products-list .premium-product-card .product-img-cont {
+        width: 100%;
+        height: 17.8rem;
+        position: relative; }
+      .premium-products .premiun-products-list .premium-product-card .product-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0; }
+      .premium-products .premiun-products-list .premium-product-card .price-tag {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        background-color: #474141;
+        border-radius: 0.5rem;
+        z-index: 999;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 1rem; }
+      .premium-products .premiun-products-list .premium-product-card .product-name {
+        margin-top: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem; }
+      .premium-products .premiun-products-list .premium-product-card .product-description {
+        margin-left: 1rem;
+        color: #c2b7c6;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600; }
+      .premium-products .premiun-products-list .premium-product-card .color-selections {
+        width: 100%;
+        display: flex;
+        margin-top: 0.8rem;
+        margin-left: 0.8rem; }
+        .premium-products .premiun-products-list .premium-product-card .color-selections .color-1 {
+          width: 2.1rem;
+          height: 2.1rem;
+          border-radius: 50%;
+          background-color: #ffe2e2;
+          margin-right: 1.1rem; }
+        .premium-products .premiun-products-list .premium-product-card .color-selections .color-2 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #bad7df;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-products .premiun-products-list .premium-product-card .color-selections .color-3 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #f6f6f6;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-products .premiun-products-list .premium-product-card .color-selections .color-4 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #bcbcbc;
+          border-radius: 50%; }
+      .premium-products .premiun-products-list .premium-product-card .add-to-card-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer; }
+
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-left: 2.5rem;
+  margin-right: auto; }
+
+.premium-category-products {
+  width: 100%;
+  min-height: 8rem;
+  padding: 1.5rem; }
+  .premium-category-products .premiun-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .premium-category-products .premiun-products-list .premium-product-card {
+      width: 47%;
+      height: 27.7rem;
+      border-radius: 1rem;
+      box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      position: relative;
+      margin-bottom: 1rem; }
+      .premium-category-products .premiun-products-list .premium-product-card .product-img-cont {
+        width: 100%;
+        height: 17.8rem;
+        position: relative; }
+      .premium-category-products .premiun-products-list .premium-product-card .product-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0; }
+      .premium-category-products .premiun-products-list .premium-product-card .price-tag {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        background-color: #474141;
+        border-radius: 0.5rem;
+        z-index: 999;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 1rem; }
+      .premium-category-products .premiun-products-list .premium-product-card .product-name {
+        margin-top: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem; }
+      .premium-category-products .premiun-products-list .premium-product-card .product-description {
+        margin-left: 1rem;
+        color: #c2b7c6;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600; }
+      .premium-category-products .premiun-products-list .premium-product-card .color-selections {
+        width: 100%;
+        display: flex;
+        margin-top: 0.8rem;
+        margin-left: 0.8rem; }
+        .premium-category-products .premiun-products-list .premium-product-card .color-selections .color-1 {
+          width: 2.1rem;
+          height: 2.1rem;
+          border-radius: 50%;
+          background-color: #ffe2e2;
+          margin-right: 1.1rem; }
+        .premium-category-products .premiun-products-list .premium-product-card .color-selections .color-2 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #bad7df;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-category-products .premiun-products-list .premium-product-card .color-selections .color-3 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #f6f6f6;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-category-products .premiun-products-list .premium-product-card .color-selections .color-4 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #bcbcbc;
+          border-radius: 50%; }
+      .premium-category-products .premiun-products-list .premium-product-card .add-to-card-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer; }
+
+.premium-search {
+  padding: 1.5rem; }
+  .premium-search .search-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 70%;
+    line-height: 4.2rem; }
+  .premium-search__form {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width: 100%; }
+    .premium-search__form .search-cont {
+      width: 100%;
+      position: relative; }
+      .premium-search__form .search-cont input {
+        width: 100%;
+        height: 4.5rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: #F2F1F1;
+        padding: 1.3rem 1.5rem 1.3rem 1.5rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #A9A8A8; }
+      .premium-search__form .search-cont .in-search-icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1.5rem; }
+  .premium-search .top-picks {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700; }
+  .premium-search .premium-products-slider {
+    width: 100%;
+    min-height: 8rem; }
+    .premium-search .premium-products-slider .premium-product-card {
+      width: 19.6rem;
+      height: 27.7rem;
+      border-radius: 1rem;
+      margin-top: 2.5rem;
+      box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      position: relative; }
+      .premium-search .premium-products-slider .premium-product-card .product-img-cont {
+        width: 100%;
+        height: 17.8rem;
+        position: relative; }
+      .premium-search .premium-products-slider .premium-product-card .product-img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0; }
+      .premium-search .premium-products-slider .premium-product-card .price-tag {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        background-color: #474141;
+        border-radius: 0.5rem;
+        z-index: 999;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 1rem; }
+      .premium-search .premium-products-slider .premium-product-card .product-name {
+        margin-top: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem; }
+      .premium-search .premium-products-slider .premium-product-card .product-description {
+        margin-left: 1rem;
+        color: #c2b7c6;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600; }
+      .premium-search .premium-products-slider .premium-product-card .color-selections {
+        width: 100%;
+        display: flex;
+        margin-top: 0.8rem;
+        margin-left: 0.8rem; }
+        .premium-search .premium-products-slider .premium-product-card .color-selections .color-1 {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          background-color: #ffe2e2;
+          margin-right: 1.1rem; }
+        .premium-search .premium-products-slider .premium-product-card .color-selections .color-2 {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #bad7df;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-search .premium-products-slider .premium-product-card .color-selections .color-3 {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #f6f6f6;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-search .premium-products-slider .premium-product-card .color-selections .color-4 {
+          width: 2.5rem;
+          height: 2.5rem;
+          background-color: #bcbcbc;
+          border-radius: 50%; }
+      .premium-search .premium-products-slider .premium-product-card .add-to-card-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer; }
+  .premium-search .category-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem; }
+  .premium-search .premiun-products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .premium-search .premiun-products-list .premium-product-card {
+      width: 47%;
+      height: 27.7rem;
+      border-radius: 1rem;
+      box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
+      position: relative;
+      margin-bottom: 1rem; }
+      .premium-search .premiun-products-list .premium-product-card .product-img-cont {
+        width: 100%;
+        height: 17.8rem;
+        position: relative; }
+      .premium-search .premiun-products-list .premium-product-card .product-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 1rem 1rem 0 0; }
+      .premium-search .premiun-products-list .premium-product-card .price-tag {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #ffffff;
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        background-color: #474141;
+        border-radius: 0.5rem;
+        z-index: 999;
+        position: absolute;
+        bottom: -1.5rem;
+        left: 1rem; }
+      .premium-search .premiun-products-list .premium-product-card .product-name {
+        margin-top: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        margin-left: 1rem; }
+      .premium-search .premiun-products-list .premium-product-card .product-description {
+        margin-left: 1rem;
+        color: #c2b7c6;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+        font-weight: 600; }
+      .premium-search .premiun-products-list .premium-product-card .color-selections {
+        width: 100%;
+        display: flex;
+        margin-top: 0.8rem;
+        margin-left: 0.8rem; }
+        .premium-search .premiun-products-list .premium-product-card .color-selections .color-1 {
+          width: 2.1rem;
+          height: 2.1rem;
+          border-radius: 50%;
+          background-color: #ffe2e2;
+          margin-right: 1.1rem; }
+        .premium-search .premiun-products-list .premium-product-card .color-selections .color-2 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #bad7df;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-search .premiun-products-list .premium-product-card .color-selections .color-3 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #f6f6f6;
+          border-radius: 50%;
+          margin-right: 1.1rem; }
+        .premium-search .premiun-products-list .premium-product-card .color-selections .color-4 {
+          width: 2.1rem;
+          height: 2.1rem;
+          background-color: #bcbcbc;
+          border-radius: 50%; }
+      .premium-search .premiun-products-list .premium-product-card .add-to-card-icon {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        cursor: pointer; }
+
+.premium-categories {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .premium-categories .premium-category {
+    background-image: url("../../img/watch-slider.png");
+    border-radius: 1.5rem;
+    width: 48.5%;
+    height: 26rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem; }
+    .premium-categories .premium-category .gradient-cover {
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem;
+      border-radius: 1.5rem;
+      background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end; }
+      .premium-categories .premium-category .gradient-cover .img-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 1rem;
+        line-height: 2.5rem; }
+      .premium-categories .premium-category .gradient-cover .pagination {
+        display: flex; }
+        .premium-categories .premium-category .gradient-cover .pagination .dot {
+          width: 1rem;
+          height: 0.5rem;
+          background-color: #ffffff;
+          border-radius: 2rem; }
+          .premium-categories .premium-category .gradient-cover .pagination .dot:not(:last-of-type) {
+            margin-right: 0.5rem; }
+        .premium-categories .premium-category .gradient-cover .pagination .img-selected {
+          width: 1.8rem; }
+
 .cover-picture-block {
   width: 100%;
   height: 25rem;

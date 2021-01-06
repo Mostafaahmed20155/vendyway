@@ -1003,6 +1003,190 @@ body {
         .premium-categories .premium-category .gradient-cover .pagination .img-selected {
           width: 1.8rem; }
 
+.branch-info {
+  width: 100%;
+  min-height: 5rem;
+  padding: 1.5rem; }
+  .branch-info .branch-pic {
+    width: 100%;
+    height: 28rem; }
+    .branch-info .branch-pic .cover-slider {
+      background-image: url("../../img/watch-slider.png");
+      border-radius: 1.5rem;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .branch-info .branch-pic .cover-slider .gradient-cover {
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end; }
+        .branch-info .branch-pic .cover-slider .gradient-cover .img-title {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #ffffff;
+          margin-bottom: 1rem;
+          line-height: 2.5rem; }
+        .branch-info .branch-pic .cover-slider .gradient-cover .pagination {
+          display: flex; }
+          .branch-info .branch-pic .cover-slider .gradient-cover .pagination .dot {
+            width: 1rem;
+            height: 0.5rem;
+            background-color: #ffffff;
+            border-radius: 2rem; }
+            .branch-info .branch-pic .cover-slider .gradient-cover .pagination .dot:not(:last-of-type) {
+              margin-right: 0.5rem; }
+          .branch-info .branch-pic .cover-slider .gradient-cover .pagination .img-selected {
+            width: 1.8rem; }
+  .branch-info .working-hours-title {
+    margin-top: 1.5rem;
+    color: #B2B2B2;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600; }
+  .branch-info .working-hours-value {
+    margin-top: 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 500; }
+  .branch-info .open-closed {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #C1BD56;
+    margin-top: 0.5rem; }
+  .branch-info .working-schedule {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between; }
+    .branch-info .working-schedule .working-schedule-detaisl .working-days-title {
+      color: #B2B2B2;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1.6rem;
+      font-weight: 600; }
+    .branch-info .working-schedule .working-schedule-detaisl .working-days-value {
+      margin-top: 0.5rem;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      font-weight: 500; }
+    .branch-info .working-schedule .contact-icons {
+      display: flex;
+      justify-content: space-between; }
+      .branch-info .working-schedule .contact-icons .ico-dir {
+        margin-left: 2rem; }
+
+#product-back-icon {
+  margin-right: auto; }
+
+.product-detials .product-pic {
+  z-index: -1;
+  position: relative; }
+  .product-detials .product-pic .product-back-btn {
+    position: absolute;
+    top: 3rem;
+    left: 1.5rem; }
+  .product-detials .product-pic .cart-icon {
+    position: absolute;
+    top: 3rem;
+    right: 1.5rem; }
+  .product-detials .product-pic .pagination {
+    display: flex;
+    position: absolute;
+    bottom: 9rem;
+    left: 1.5rem; }
+    .product-detials .product-pic .pagination .dot {
+      width: 1rem;
+      height: 0.5rem;
+      background-color: #ffffff;
+      border-radius: 2rem; }
+      .product-detials .product-pic .pagination .dot:not(:last-of-type) {
+        margin-right: 0.5rem; }
+    .product-detials .product-pic .pagination .img-selected {
+      width: 1.8rem; }
+
+.product-detials .product-summary {
+  padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+  z-index: 99999;
+  background-color: #ffffff;
+  border-radius: 3rem 3rem 0 0;
+  margin-top: -7rem; }
+  .product-detials .product-summary .product-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem; }
+  .product-detials .product-summary .product-price {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #b2b2b2;
+    margin-bottom: 1.5rem; }
+  .product-detials .product-summary .product-description {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #707070;
+    margin-bottom: 1.5rem; }
+  .product-detials .product-summary .color-title {
+    margin-bottom: 1rem; }
+  .product-detials .product-summary .colors-selection {
+    display: flex; }
+    .product-detials .product-summary .colors-selection .color-1 {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 0.5rem;
+      background-color: #3A383D;
+      margin-right: 1rem; }
+    .product-detials .product-summary .colors-selection .color-2 {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 0.5rem;
+      background-color: #72ACE6;
+      margin-right: 1rem; }
+    .product-detials .product-summary .colors-selection .color-3 {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 0.5rem;
+      background-color: #49D490;
+      margin-right: 1rem; }
+    .product-detials .product-summary .colors-selection .color-4 {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 0.5rem;
+      background-color: #1DB2B8;
+      margin-right: 1rem; }
+    .product-detials .product-summary .colors-selection .color-5 {
+      width: 2rem;
+      height: 2rem;
+      border-radius: 0.5rem;
+      background-color: #DA6603;
+      margin-right: 1rem; }
+
+.product-detials .product-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem; }
+  .product-detials .product-btns .add-to-cart, .product-detials .product-btns .buy-now {
+    width: 49%;
+    padding: 1.4rem 3.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    color: #ffffff; }
+  .product-detials .product-btns .add-to-cart {
+    background-color: #B4D9DB; }
+  .product-detials .product-btns .buy-now {
+    background-color: #474141; }
+
 .cover-picture-block {
   width: 100%;
   height: 25rem;

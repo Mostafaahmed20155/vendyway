@@ -1,18 +1,70 @@
 .premium-categories {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .premium-category {
+    background-image: url("../../img/watch-slider.png");
+    border-radius: 1.5rem;
+    width: 48.5%;
+    height: 26rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 1rem;
+    // object-fit: cover;
+    .gradient-cover {
+      width: 100%;
+      height: 100%;
+      padding: 1.5rem;
+      border-radius: 1.5rem;
+      background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      .img-title {
+        @include Montserrat(1.8rem, 500);
+        color: $color-primary;
+        margin-bottom: 1rem;
+        line-height: 2.5rem;
+      }
+      .pagination {
+        display: flex;
+        .dot {
+          width: 1rem;
+          height: 0.5rem;
+          background-color: $color-primary;
+          border-radius: 2rem;
+          &:not(:last-of-type) {
+            margin-right: 0.5rem;
+          }
+        }
+        .img-selected {
+          width: 1.8rem;
+        }
+      }
+    }
+  }
+}
+
+//SINGLE BRANCH PAGE (To be put into separate file)
+.branch-info {
+  width: 100%;
+  min-height: 5rem; //TO BE REMOVED
+  padding: 1.5rem;
+  .branch-pic {
     width: 100%;
-    padding: 1.5rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    .premium-category {
+    height: 28rem;
+    .cover-slider {
       background-image: url("../../img/watch-slider.png");
       border-radius: 1.5rem;
-      width: 48.5%;
-      height: 26rem;
-      background-position: center;
+      width: 100%;
+      height: 100%;
+      // background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
-      margin-bottom: 1rem;
       // object-fit: cover;
       .gradient-cover {
         width: 100%;
@@ -48,3 +100,168 @@
       }
     }
   }
+  .working-hours-title {
+    margin-top: 1.5rem;
+    color: #B2B2B2;
+    @include Montserrat(1.6rem, 600);
+  }
+  .working-hours-value {
+    margin-top: 0.5rem;
+    @include Montserrat(2rem,500);
+  }
+  .open-closed {
+    @include Poppins(1.5rem, 500);
+    color: #C1BD56;
+    margin-top: 0.5rem;
+  }
+  .working-schedule {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    .working-schedule-detaisl {
+      .working-days-title {
+        color: #B2B2B2;
+        @include Montserrat(1.6rem, 600);
+      }
+      .working-days-value {
+        margin-top: 0.5rem;
+        @include Montserrat(2rem,500);
+      }
+    }
+
+    .contact-icons {
+      display: flex;
+      justify-content: space-between;
+      .ico-dir {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+}
+
+//SINGLE PRODUCT
+#product-back-icon {
+  margin-right: auto;
+}
+
+.product-detials {
+  .product-pic {
+    z-index: -1;
+    position: relative;
+    .product-img {
+    } 
+    .product-back-btn {
+      position: absolute;
+      top: 3rem;
+      left: 1.5rem;
+    }
+    .cart-icon {
+      position: absolute;
+      top: 3rem;
+      right: 1.5rem;
+    }
+    .pagination {
+      display: flex;
+      position: absolute;
+      bottom: 9rem;
+      left: 1.5rem;
+      .dot {
+        width: 1rem;
+        height: 0.5rem;
+        background-color: $color-primary;
+        border-radius: 2rem;
+        &:not(:last-of-type) {
+          margin-right: 0.5rem;
+        }
+      }
+      .img-selected {
+        width: 1.8rem;
+      }
+    }
+  }
+  .product-summary {
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+    z-index: 99999;
+    background-color: $color-primary;
+    border-radius: 3rem 3rem 0 0;
+    margin-top: -7rem;
+    .product-name {
+        @include Montserrat(2rem, 600);
+        margin-bottom: 0.5rem
+    }
+    .product-price {
+      @include Poppins(1.5rem, 600);
+      color: #b2b2b2;
+      margin-bottom: 1.5rem
+    }
+    .product-description {
+      @include Poppins(1.5rem, 400);
+      color: #707070;
+      margin-bottom: 1.5rem
+    }
+    .color-title {
+      margin-bottom: 1rem
+    }
+    .colors-selection {
+      display: flex;
+      .color-1 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background-color: #3A383D;
+        margin-right: 1rem;
+      }
+      .color-2 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background-color:#72ACE6;
+        margin-right: 1rem;
+      }
+      .color-3 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background-color: #49D490;
+        margin-right: 1rem;
+      }
+      .color-4 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background-color: #1DB2B8;
+        margin-right: 1rem;
+      }
+      .color-5 {
+        width: 2rem;
+        height: 2rem;
+        border-radius: 0.5rem;
+        background-color: #DA6603;
+        margin-right: 1rem;
+      }
+    }
+  }
+  .product-btns {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    .add-to-cart, .buy-now {
+      width: 49%;
+      padding: 1.4rem 3.5rem;
+      @include Poppins(1.5rem, 600);
+      border-radius: 0.5rem;
+      border: none;
+      color: $color-primary;
+    }
+    .add-to-cart {
+      background-color: #B4D9DB;
+    }
+    .buy-now {
+      background-color: #474141;
+    }
+
+  }
+}
+
+

@@ -1088,6 +1088,8 @@ body {
 .product-detials .product-pic {
   z-index: -1;
   position: relative; }
+  .product-detials .product-pic .product-img {
+    width: 100%; }
   .product-detials .product-pic .product-back-btn {
     position: absolute;
     top: 3rem;

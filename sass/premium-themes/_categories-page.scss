@@ -71,7 +71,10 @@
         height: 100%;
         padding: 1.5rem;
         border-radius: 1.5rem;
-        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
+        background-image: linear-gradient(
+          rgba(255, 0, 0, 0),
+          rgba(0, 0, 0, 0.4)
+        );
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -102,16 +105,16 @@
   }
   .working-hours-title {
     margin-top: 1.5rem;
-    color: #B2B2B2;
+    color: #b2b2b2;
     @include Montserrat(1.6rem, 600);
   }
   .working-hours-value {
     margin-top: 0.5rem;
-    @include Montserrat(2rem,500);
+    @include Montserrat(2rem, 500);
   }
   .open-closed {
     @include Poppins(1.5rem, 500);
-    color: #C1BD56;
+    color: #c1bd56;
     margin-top: 0.5rem;
   }
   .working-schedule {
@@ -120,12 +123,12 @@
     justify-content: space-between;
     .working-schedule-detaisl {
       .working-days-title {
-        color: #B2B2B2;
+        color: #b2b2b2;
         @include Montserrat(1.6rem, 600);
       }
       .working-days-value {
         margin-top: 0.5rem;
-        @include Montserrat(2rem,500);
+        @include Montserrat(2rem, 500);
       }
     }
 
@@ -137,7 +140,6 @@
       }
     }
   }
-
 }
 
 //SINGLE PRODUCT
@@ -151,7 +153,7 @@
     position: relative;
     .product-img {
       width: 100%;
-    } 
+    }
     .product-back-btn {
       position: absolute;
       top: 3rem;
@@ -188,21 +190,21 @@
     border-radius: 3rem 3rem 0 0;
     margin-top: -7rem;
     .product-name {
-        @include Montserrat(2rem, 600);
-        margin-bottom: 0.5rem
+      @include Montserrat(2rem, 600);
+      margin-bottom: 0.5rem;
     }
     .product-price {
       @include Poppins(1.5rem, 600);
       color: #b2b2b2;
-      margin-bottom: 1.5rem
+      margin-bottom: 1.5rem;
     }
     .product-description {
       @include Poppins(1.5rem, 400);
       color: #707070;
-      margin-bottom: 1.5rem
+      margin-bottom: 1.5rem;
     }
     .color-title {
-      margin-bottom: 1rem
+      margin-bottom: 1rem;
     }
     .colors-selection {
       display: flex;
@@ -210,35 +212,35 @@
         width: 2rem;
         height: 2rem;
         border-radius: 0.5rem;
-        background-color: #3A383D;
+        background-color: #3a383d;
         margin-right: 1rem;
       }
       .color-2 {
         width: 2rem;
         height: 2rem;
         border-radius: 0.5rem;
-        background-color:#72ACE6;
+        background-color: #72ace6;
         margin-right: 1rem;
       }
       .color-3 {
         width: 2rem;
         height: 2rem;
         border-radius: 0.5rem;
-        background-color: #49D490;
+        background-color: #49d490;
         margin-right: 1rem;
       }
       .color-4 {
         width: 2rem;
         height: 2rem;
         border-radius: 0.5rem;
-        background-color: #1DB2B8;
+        background-color: #1db2b8;
         margin-right: 1rem;
       }
       .color-5 {
         width: 2rem;
         height: 2rem;
         border-radius: 0.5rem;
-        background-color: #DA6603;
+        background-color: #da6603;
         margin-right: 1rem;
       }
     }
@@ -247,7 +249,8 @@
     display: flex;
     justify-content: space-between;
     margin-top: 2rem;
-    .add-to-cart, .buy-now {
+    .add-to-cart,
+    .buy-now {
       width: 49%;
       padding: 1.4rem 3.5rem;
       @include Poppins(1.5rem, 600);
@@ -256,13 +259,268 @@
       color: $color-primary;
     }
     .add-to-cart {
-      background-color: #B4D9DB;
+      background-color: #b4d9db;
     }
     .buy-now {
       background-color: #474141;
     }
+  }
+}
 
+//CART
+.progress-steps {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.premium-cart-products {
+  width: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  .cart-single-product {
+    display: flex;
+    height: 10rem;
+    &:not(:last-of-type) {
+      margin-bottom: 1.5rem;
+    }
+    .product-img {
+      width: 10rem;
+      height: 10rem;
+      margin-right: 1.5rem;
+      border-radius: 1rem;
+    }
+    .product-details {
+      display: flex;
+      flex-direction: column;
+      .prod-name {
+        @include Montserrat(1.5rem, 600);
+        margin-bottom: 1rem;
+      }
+      .prod-price {
+        @include Poppins(1.4rem, 600);
+        color: #b2b2b2;
+      }
+      .qty-container {
+        margin-top: auto;
+        display: flex;
+        align-items: center;
+        form {
+          width: 100%;
+          display: flex;
+          // justify-content: center;
+          // align-items: center;
+          .row {
+            display: flex;
+            // flex-direction: column;
+            justify-content: end;
+            align-items: center;
+            input {
+              width: 10%;
+              text-align: center;
+              margin: 0 1rem;
+              border: none;
+              @include Montserrat(1.3rem, 600);
+            }
+            .button {
+              padding: 0.3rem 0.7rem;
+              border-radius: 50%;
+              cursor: pointer;
+              @include Montserrat(1.3rem, 600);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              box-shadow: 0 0 3rem rgba($color: #000000, $alpha: 0.1);
+              user-select: none;
+            }
+            .inc {
+              background-color: $color-tertairy;
+            }
+            .dec {
+              background-color: $color-text;
+              color: $color-primary;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.order-info {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  .order-info-title {
+    @include Poppins(2rem,600);
+  }
+  .sub-tot-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    .subtotal-title {
+      @include Poppins(1.5rem, 500);
+      color: #b2b2b2;
+    }
+    .subtotal-value {
+      @include Poppins(1.5rem, 600);
+    }
+  }
+  .shipping-cost-cont {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    .shipping-cost-title {
+      @include Poppins(1.5rem, 500);
+      color: #b2b2b2;
+    }
+    .shipping-cost-value {
+      @include Poppins(1.5rem, 600);
+    }
+  }
+  .total-cont {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 1rem;
+    .total-title {
+      @include Poppins(1.5rem, 500);
+      color: #b2b2b2;
+    }
+    .total-value {
+      @include Poppins(1.5rem, 600);
+    }
+  }
+}
+
+.buy-now-cont {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  .total-price-title {
+    @include Poppins(1.2rem,500);
+    color: #b2b2b2;
+  }
+  .total-price-value {
+    @include Poppins(1.5rem,600);
+  }
+  .buy-now {
+    display: flex;
+    align-items: center;
+    background-color: #474141;
+    @include Poppins(1.5rem,600);
+    justify-content: space-between;
+    color: $color-primary;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    width: 40%;
   }
 }
 
 
+//CONATCT INFORMATION
+.checkout-form {
+  width: 100%;
+  // height: 90vh;   
+ //  background-color: navy;
+  padding: 1.5rem;
+  .intro-paragraph {
+      @include Montserrat(1.5rem,600);
+      color: #9A87A0;
+      margin-bottom: 2rem;
+  }
+  .contact-information {
+      width: 100%;
+      input {
+          width: 100%;
+          padding: 1.5rem;
+          border-radius: 0.5rem;
+          border: 0.02rem solid #707070;
+          margin-top: 1.3rem;
+          margin-bottom: 2rem;
+          @include Montserrat(1.3rem, 600);
+          color: #C2B7C6;
+          &:focus {
+              outline: solid 1px;
+              transition: all .2s;
+          }
+      }
+      .inputs-cont {
+          display: flex;
+          width: 100%;
+      }
+      .card-inputs {
+          width: 100%;
+      }
+      .exp-date {
+          width: 90%;
+      }
+      .input-container {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+      }
+      label {
+          @include Montserrat(1.3rem, 600);
+      }
+      .or-title {
+        @include Montserrat(1.3rem, 600);
+        margin-bottom: 1.5rem;
+      }
+      .google-maps {
+        // width: 49%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 1.2rem;
+        padding-bottom: 1.2rem;
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
+        border-radius: 0.5rem;
+        color: $color-primary;
+        background-color: #474141;
+        @include Poppins(1.5rem,600);
+        border: none;
+        img {
+          margin-right: 1rem;
+        }
+      }
+  }
+ }
+
+ //Delievery
+.delievery-method {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.5rem;
+  .delievery-btn {
+    width: 49%;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    border-radius: 0.5rem;
+    color: $color-primary;
+    background-color: #b2b2b2;
+    @include Poppins(1.5rem,600);
+    border: none;
+  }
+  .car-pickup-btn {
+    width: 49%;
+    padding: 1.4rem 3.5rem;
+    border-radius: 0.5rem;
+    color: $color-primary;
+    background-color: #b2b2b2;
+    @include Poppins(1.5rem,600);
+    border: none;
+  }
+}
+
+.btn-selected {
+  background-color: #474141 !important;
+}

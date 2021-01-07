@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="cart-delete-icon" transform="translate(-313 -178)">
+    <rect id="Rectangle_306" data-name="Rectangle 306" width="32" height="32" rx="5" transform="translate(313 178)" fill="#f1f1f3"/>
+    <path id="Icon_awesome-trash" data-name="Icon awesome-trash" d="M10.969.812H7.922L7.683.338A.609.609,0,0,0,7.137,0h-2.9a.6.6,0,0,0-.543.338L3.453.812H.406A.406.406,0,0,0,0,1.219v.813a.406.406,0,0,0,.406.406H10.969a.406.406,0,0,0,.406-.406V1.219A.406.406,0,0,0,10.969.812ZM1.351,11.857A1.219,1.219,0,0,0,2.567,13H8.808a1.219,1.219,0,0,0,1.216-1.142l.538-8.608H.813Z" transform="translate(323 188)" fill="#92919f"/>
+  </g>
+</svg>

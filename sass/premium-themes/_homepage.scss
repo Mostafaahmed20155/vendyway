@@ -7,6 +7,9 @@
     width: 100%;
     display: flex;
     align-items: center;
+    .search-anchor {
+      margin-left: auto;
+    }
     // justify-content: space-between;
   }
   // .premium-sidebar-btn {
@@ -275,4 +278,14 @@
       }
     }
   }
+}
+
+
+//PREMIUM THEME 2
+#premium-selections-2 {
+  margin-bottom: 1.5rem;
+}
+
+.mansory-layout {
+  
 }

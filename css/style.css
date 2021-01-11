@@ -438,6 +438,8 @@ body {
     width: 100%;
     display: flex;
     align-items: center; }
+    .premium-header .premium-nav-bar .search-anchor {
+      margin-left: auto; }
   .premium-header .premium-search-icon {
     margin-left: auto;
     margin-right: 1rem; }
@@ -672,6 +674,9 @@ body {
         bottom: 0;
         right: 0;
         cursor: pointer; }
+
+#premium-selections-2 {
+  margin-bottom: 1.5rem; }
 
 .page-title {
   font-family: 'Montserrat', sans-serif;
@@ -1326,7 +1331,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 1.5rem;
     font-weight: 600; }
-  .buy-now-cont .buy-now {
+  .buy-now-cont a {
     display: flex;
     align-items: center;
     background-color: #474141;
@@ -1335,10 +1340,23 @@ body {
     font-weight: 600;
     justify-content: space-between;
     color: #ffffff;
-    padding: 1rem;
     border-radius: 0.5rem;
     border: none;
     width: 40%; }
+    .buy-now-cont a .buy-now {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #474141;
+      font-family: 'Poppins', sans-serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      justify-content: space-between;
+      color: #ffffff;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: none;
+      width: 100%; }
 
 .checkout-form {
   width: 100%;
@@ -1410,8 +1428,11 @@ body {
   padding: 1.5rem; }
   .delievery-method .delievery-btn {
     width: 49%;
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 0.5rem;
     color: #ffffff;
     background-color: #b2b2b2;
@@ -1421,7 +1442,11 @@ body {
     border: none; }
   .delievery-method .car-pickup-btn {
     width: 49%;
-    padding: 1.4rem 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 0.5rem;
     color: #ffffff;
     background-color: #b2b2b2;

@@ -409,17 +409,30 @@
   .total-price-value {
     @include Poppins(1.5rem,600);
   }
-  .buy-now {
+  a {
     display: flex;
-    align-items: center;
-    background-color: #474141;
-    @include Poppins(1.5rem,600);
-    justify-content: space-between;
-    color: $color-primary;
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: none;
-    width: 40%;
+      align-items: center;
+      background-color: #474141;
+      @include Poppins(1.5rem,600);
+      justify-content: space-between;
+      color: $color-primary;
+      // padding: 1rem;
+      border-radius: 0.5rem;
+      border: none;
+      width: 40%;
+    .buy-now {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: #474141;
+      @include Poppins(1.5rem,600);
+      justify-content: space-between;
+      color: $color-primary;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      border: none;
+      width: 100%;
+    }
   }
 }
 
@@ -502,8 +515,11 @@
   padding: 1.5rem;
   .delievery-btn {
     width: 49%;
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 0.5rem;
     color: $color-primary;
     background-color: #b2b2b2;
@@ -512,7 +528,11 @@
   }
   .car-pickup-btn {
     width: 49%;
-    padding: 1.4rem 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-radius: 0.5rem;
     color: $color-primary;
     background-color: #b2b2b2;

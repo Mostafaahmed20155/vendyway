@@ -561,7 +561,8 @@ body {
         width: 100%;
         display: flex;
         margin-top: 0.8rem;
-        margin-left: 0.8rem; }
+        margin-left: 0.8rem;
+        margin-bottom: 1.2rem; }
         .premium-products .premium-products-slider .premium-product-card .color-selections .color-1 {
           width: 2.5rem;
           height: 2.5rem;
@@ -602,7 +603,6 @@ body {
     justify-content: space-between; }
     .premium-products .premiun-products-list .premium-product-card {
       width: 47%;
-      height: 27.7rem;
       border-radius: 1rem;
       box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
       position: relative;
@@ -645,7 +645,8 @@ body {
         width: 100%;
         display: flex;
         margin-top: 0.8rem;
-        margin-left: 0.8rem; }
+        margin-left: 0.8rem;
+        margin-bottom: 1.2rem; }
         .premium-products .premiun-products-list .premium-product-card .color-selections .color-1 {
           width: 2.1rem;
           height: 2.1rem;

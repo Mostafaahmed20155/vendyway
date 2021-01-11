@@ -679,6 +679,18 @@ body {
 #premium-selections-2 {
   margin-bottom: 1.5rem; }
 
+#mansory-view {
+  width: 100%;
+  column-count: 2;
+  column-gap: 1rem;
+  display: block; }
+
+#mansory-card {
+  display: inline-block;
+  width: auto; }
+  #mansory-card .product-img-cont {
+    height: auto; }
+
 .page-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;

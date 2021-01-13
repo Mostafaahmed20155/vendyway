@@ -239,7 +239,7 @@ body {
   z-index: 10000;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   top: 0;
   left: 0;
   background-color: #ffffff;
@@ -247,6 +247,30 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px; }
+  .sidenav .profile-container {
+    width: 11rem;
+    height: 11rem;
+    position: relative;
+    margin-top: 4.3rem;
+    margin-bottom: 2rem; }
+    .sidenav .profile-container__pic {
+      border-radius: 50%;
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .sidenav .profile-container .profile-settings {
+      position: absolute;
+      bottom: -15%;
+      right: -15%; }
+  .sidenav .profile-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 4rem; }
+  .sidenav .nav-bar-selections {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
 
 .sidenav a {
   color: #000000;
@@ -256,8 +280,7 @@ body {
   .sidenav a .side-bar__selection {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 5rem; }
+    justify-content: center; }
     .sidenav a .side-bar__selection .selection-title {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.3rem;
@@ -519,7 +542,6 @@ body {
     min-height: 8rem; }
     .premium-products .premium-products-slider .premium-product-card {
       width: 19.6rem;
-      height: 27.7rem;
       border-radius: 1rem;
       margin-top: 2.5rem;
       box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
@@ -687,7 +709,10 @@ body {
 
 #mansory-card {
   display: inline-block;
-  width: auto; }
+  width: auto;
+  height: auto; }
+  #mansory-card .color-selections {
+    margin-bottom: 1.2rem; }
   #mansory-card .product-img-cont {
     height: auto; }
 
@@ -1470,6 +1495,23 @@ body {
 
 .btn-selected {
   background-color: #474141 !important; }
+
+.mansory-card {
+  position: relative;
+  margin-bottom: 1rem; }
+  .mansory-card .img-title {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 2.5rem; }
+  .mansory-card .branch-img {
+    height: auto;
+    width: 100%;
+    border-radius: 1rem; }
 
 .cover-picture-block {
   width: 100%;

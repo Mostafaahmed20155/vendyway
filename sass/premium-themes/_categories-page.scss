@@ -544,3 +544,22 @@
 .btn-selected {
   background-color: #474141 !important;
 }
+
+.mansory-card {
+  position: relative;
+  margin-bottom: 1rem;
+  .img-title {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    @include Montserrat(1.8rem, 500);
+    color: $color-primary;
+    // margin-bottom: 1rem;
+    line-height: 2.5rem;
+  }
+  .branch-img {
+      height: auto;
+      width: 100%;
+      border-radius: 1rem;
+  }
+}

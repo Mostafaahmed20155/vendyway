@@ -4,10 +4,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  a {
+    width: 48.5%;
+  }
   .premium-category {
     background-image: url("../../img/watch-slider.png");
     border-radius: 1.5rem;
-    width: 48.5%;
+    // width: 48.5%;
     height: 20rem;
     background-position: center;
     background-size: cover;

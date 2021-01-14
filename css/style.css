@@ -525,15 +525,15 @@ body {
     font-weight: 700; }
   .premium-products .selections-slider {
     width: 100%;
-    margin-top: 1.5rem;
-    display: flex; }
+    margin-top: 1.5rem; }
     .premium-products .selections-slider .selection {
       font-family: 'Montserrat', sans-serif;
       font-size: 1.5rem;
       font-weight: 500;
       margin-right: 1.5rem;
       padding: 0.5rem 1rem;
-      border-radius: 1rem; }
+      border-radius: 1rem;
+      width: fit-content; }
     .premium-products .selections-slider .selected-category {
       color: #ffffff;
       background-color: #474141; }
@@ -1012,7 +1012,7 @@ body {
     background-image: url("../../img/watch-slider.png");
     border-radius: 1.5rem;
     width: 48.5%;
-    height: 26rem;
+    height: 20rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1032,8 +1032,12 @@ body {
         font-size: 1.8rem;
         font-weight: 500;
         color: #ffffff;
-        margin-bottom: 1rem;
-        line-height: 2.5rem; }
+        line-height: 2rem; }
+        .premium-categories .premium-category .gradient-cover .img-title span {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.6rem;
+          font-weight: 500;
+          color: #b6b6b6; }
       .premium-categories .premium-category .gradient-cover .pagination {
         display: flex; }
         .premium-categories .premium-category .gradient-cover .pagination .dot {
@@ -1073,10 +1077,26 @@ body {
         .branch-info .branch-pic .cover-slider .gradient-cover .img-title {
           font-family: 'Montserrat', sans-serif;
           font-size: 1.8rem;
-          font-weight: 500;
+          font-weight: 600;
           color: #ffffff;
-          margin-bottom: 1rem;
-          line-height: 2.5rem; }
+          line-height: 2rem; }
+        .branch-info .branch-pic .cover-slider .gradient-cover .more-info {
+          display: flex; }
+          .branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 500;
+            color: #b6b6b6;
+            margin-left: 1rem; }
+          .branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating {
+            display: flex; }
+            .branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating img {
+              margin-right: 1rem; }
+            .branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating h2 {
+              font-family: 'Montserrat', sans-serif;
+              font-size: 1.6rem;
+              font-weight: 500;
+              color: #b6b6b6; }
         .branch-info .branch-pic .cover-slider .gradient-cover .pagination {
           display: flex; }
           .branch-info .branch-pic .cover-slider .gradient-cover .pagination .dot {

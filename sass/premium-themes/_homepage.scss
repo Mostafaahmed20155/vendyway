@@ -89,12 +89,13 @@
   .selections-slider {
     width: 100%;
     margin-top: 1.5rem;
-    display: flex;
+    // display: flex;
     .selection {
       @include Montserrat(1.5rem, 500);
       margin-right: 1.5rem;
       padding: 0.5rem 1rem;
       border-radius: 1rem;
+      width: fit-content;
     }
     .selected-category {
       color: $color-primary;

@@ -8,7 +8,7 @@
     background-image: url("../../img/watch-slider.png");
     border-radius: 1.5rem;
     width: 48.5%;
-    height: 26rem;
+    height: 20rem;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -27,8 +27,12 @@
       .img-title {
         @include Montserrat(1.8rem, 500);
         color: $color-primary;
-        margin-bottom: 1rem;
-        line-height: 2.5rem;
+        // margin-bottom: 1rem;
+        line-height: 2rem;
+        span {
+          @include Montserrat(1.6rem, 500);
+          color: #b6b6b6;
+        }
       }
       .pagination {
         display: flex;
@@ -80,10 +84,28 @@
         align-items: flex-start;
         justify-content: flex-end;
         .img-title {
-          @include Montserrat(1.8rem, 500);
+          @include Montserrat(1.8rem, 600);
           color: $color-primary;
-          margin-bottom: 1rem;
-          line-height: 2.5rem;
+          // margin-bottom: 1rem;
+          line-height: 2rem;
+        }
+        .more-info {
+          display: flex;
+          .distance {
+            @include Montserrat(1.6rem, 500);
+            color: #b6b6b6;  
+            margin-left: 1rem;
+          }
+          .branch-rating {
+            display: flex;
+            img {
+              margin-right: 1rem;
+            }
+            h2 {
+              @include Montserrat(1.6rem, 500);
+              color: #b6b6b6;  
+            }
+          }
         }
         .pagination {
           display: flex;

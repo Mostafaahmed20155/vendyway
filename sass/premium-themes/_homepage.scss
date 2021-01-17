@@ -306,5 +306,8 @@
   }
   .product-img-cont {
     height: auto;
+    .price-tag {
+      bottom: -0.8rem;
+    }
   }
 }

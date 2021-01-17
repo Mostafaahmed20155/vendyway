@@ -715,6 +715,8 @@ body {
     margin-bottom: 1.2rem; }
   #mansory-card .product-img-cont {
     height: auto; }
+    #mansory-card .product-img-cont .price-tag {
+      bottom: -0.8rem; }
 
 .page-title {
   font-family: 'Montserrat', sans-serif;

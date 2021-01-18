@@ -109,6 +109,7 @@
       width: 19.6rem;
       // height: 27.7rem;
       border-radius: 1rem;
+      background-color: $color-primary;
       margin-top: 2.5rem;
       box-shadow: 0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
       -webkit-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
@@ -199,6 +200,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-color: $color-primary;
     .premium-product-card {
       width: 47%;
       // height: 27.7rem;

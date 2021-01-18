@@ -543,7 +543,6 @@ body {
     .premium-products .premium-products-slider .premium-product-card {
       width: 19.6rem;
       border-radius: 1rem;
-      background-color: #ffffff;
       margin-top: 2.5rem;
       box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
       -webkit-box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
@@ -625,8 +624,7 @@ body {
   .premium-products .premiun-products-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #ffffff; }
+    justify-content: space-between; }
     .premium-products .premiun-products-list .premium-product-card {
       width: 47%;
       border-radius: 1rem;

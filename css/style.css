@@ -635,6 +635,10 @@ body {
       -moz-box-shadow: 0rem 0.6rem 3rem rgba(0, 0, 0, 0.08);
       position: relative;
       margin-bottom: 1rem; }
+      .premium-products .premiun-products-list .premium-product-card:nth-of-type(odd) {
+        background-color: navy; }
+      .premium-products .premiun-products-list .premium-product-card:nth-of-type(even) {
+        background-color: orangered; }
       .premium-products .premiun-products-list .premium-product-card .product-img-cont {
         width: 100%;
         height: 17.8rem;

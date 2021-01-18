@@ -111,9 +111,11 @@
       border-radius: 1rem;
       background-color: $color-primary;
       margin-top: 2.5rem;
-      box-shadow: 0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
-      -webkit-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
-      -moz-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      box-shadow: 0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.2);
+      -webkit-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.2);
+      -moz-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.2);
       position: relative;
       .product-img-cont {
         width: 100%;
@@ -202,19 +204,21 @@
     justify-content: space-between;
     background-color: $color-primary;
     .premium-product-card {
-      &:nth-of-type(odd) {
-        background-color: navy;
-      }
-      &:nth-of-type(even) {
-        background-color: orangered;
-      }
+      // &:nth-of-type(odd) {
+      //   background-color: navy;
+      // }
+      // &:nth-of-type(even) {
+      //   background-color: orangered;
+      // }
       width: 47%;
       // height: 27.7rem;
       border-radius: 1rem;
       background-color: $color-primary;
-      box-shadow: 0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
-      -webkit-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
-      -moz-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.08);
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      box-shadow: 0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.2);
+      -webkit-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.2);
+      -moz-box-shadow:  0rem 0.6rem 3rem rgba($color: #000000, $alpha: 0.2);
       position: relative;
       margin-bottom: 1rem;
       .product-img-cont {

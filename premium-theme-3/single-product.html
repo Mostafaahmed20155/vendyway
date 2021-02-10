@@ -9,7 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
         rel="stylesheet">
-    <!-- <script src="../js/main.js" defer></script> -->
+    <script src="../js/main.js" defer></script>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
         <section class="main__app-section">
             <div class="product-detials">
                 <div class="product-pic">
-                    <img src="../img/product-img.png" alt="prodcct-img" class="product-img">
+                    <img src="../img/product-img.png" alt="prodcct-img" class="product-img product-img-premium">
                     <img src="../img/Icon ionic-ios-arrow-back-white.svg" alt="sidebar" class="product-back-btn">
                     <img src="../img/shopping-cart-white.svg" alt="cart" class="cart-icon">
                     <div class="pagination">
@@ -26,21 +26,47 @@
                         <div class="dot"></div>
                     </div>
                 </div>
-                <div class="product-summary">
-                    <h1 class="product-name">Apple Watch Series 5</h1>
-                    <h2 class="product-price">AED 1,999</h2>
-                    <p class="product-description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </p>
-                    <h1 class="color-title">Color</h1>
-                    <div class="colors-selection">
+                <div class="product-summary premium-product-summary">
+                    <form action="#" class="instruction-form" id="instructions-form">
+                        <div class="product-size premium-product-size">
+                            <h1 class="product-size-title premium-size-title">Size</h1>
+                            <div class="product-size-options premium-products-options">
+                                <div class="single-option premium-single-option" id="single-option-1">
+                                    <h1 class="size-title">XS</h1>
+                                    <input type="radio" name="size" id="xs" class="prod-size" value="xs">
+                                </div>
+                                <div class="single-option premium-single-option" id="single-option-2">
+                                    <h1 class="size-title">S</h1>
+                                    <input type="radio" name="size" id="s" class="prod-size" value="s">
+                                </div>
+                                <div class="single-option premium-single-option" id="single-option-3">
+                                    <h1 class="size-title">L</h1>
+                                    <input type="radio" name="size" id="l" class="prod-size" value="l">
+                                </div>
+                                <div class="single-option premium-single-option" id="single-option-4">
+                                    <h1 class="size-title">XL</h1>
+                                    <input type="radio" name="size" id="Xl" class="prod-size" value="xl">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <h1 class="color-title premium-color-title">Color</h1>
+                    <div class="colors-selection premium-color-selection">
                         <div class="color-1"></div>
                         <div class="color-2"></div>
                         <div class="color-3"></div>
                         <div class="color-4"></div>
                         <div class="color-5"></div>
                     </div>
-                    <div class="product-btns">
-                        <button class="add-to-cart">Add to Cart</button>
-                        <button class="buy-now">Buy Now</button>
+                    <p class="product-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, dicta
+                        dignissimos. Perferendis atque, doloremque officia illo porro, eum molestias eius, unde rerum
+                        sapiente commodi! Obcaecati. </p>
+                    <div class="buy-now-cont premium-buy-now-cont single-product-bar">
+                        <div class="price-cont">
+                            <h1 class="total-price-title">Total Price</h1>
+                            <h1 class="total-price-value">KWD 2,023</h1>
+                        </div>
+                        <img src="../img/premium-add-to-cart-icon.svg" alt="add-to-cart" class="premium-add-to-cart">
                     </div>
                 </div>
             </div>

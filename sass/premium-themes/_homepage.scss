@@ -794,3 +794,125 @@
   }
 }
 
+.single-product-bar {
+  left: 0;
+}
+
+.instruction-form {
+  width: 100%;
+  .instructions {
+    width: 100%;
+    background-color: $text-area-color;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    resize: none;
+    // display: none;
+    @include Montserrat(1.2rem, 500);
+    &:focus {
+      // outline: 0.1rem solid black;
+      outline: none;
+    }
+  }
+}
+
+.product-size {
+  width: 100%;
+  margin-top: 1.5rem;
+  .product-size-title {
+    @include Montserrat(1.2rem, 600);
+    margin-bottom: 1.5rem;
+  }
+  .product-size-options {
+    display: flex;
+    justify-content: space-between;
+    .single-option {
+      &:hover {
+        transition: 0.3s;
+        background-color: #eee6e6;
+        cursor: pointer;
+      }
+      background-color: $color-secondary;
+      padding: 1rem 2.3rem;
+      // width: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 3rem;
+      .size-title {
+        @include Montserrat(1.2rem, 600);
+        margin-bottom: 0.5rem;
+      }
+      .size-value {
+        @include Montserrat(1.1rem, 600);
+        color: rgba($color: #000000, $alpha: 0.3);
+      }
+      input[type=radio] {
+        display: none;
+      } 
+    }
+  }
+}
+
+.premium-single-option {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+    padding: 2rem !important; 
+    border: 1px solid #707070;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.5rem ;
+    .size-title {
+      margin-bottom: 0 !important;
+      @include Montserrat(1.5, 600);
+    }
+}
+
+.premium-products-options {
+  justify-content: unset !important;
+}
+
+.premium-size-title {
+  font-size: 1.5rem !important;
+}
+
+.premium-color-title {
+  font-size: 1.5rem im !important;
+  margin-top: 1rem;
+}
+
+.product-img-premium {
+  height: 50rem;
+  object-fit: cover;
+}
+
+.premium-product-summary {
+  border-radius: 0 !important;
+  padding: 1.5rem !important;
+}
+
+.premium-product-size {
+  margin-top: 0 !important;
+}
+
+.premium-color-selection {
+  margin-bottom: 1.5rem;
+  .color-1 {
+    border-radius: 50% !important;
+  } 
+  .color-2 {
+    border-radius: 50% !important;
+  }
+  .color-3 {
+    border-radius: 50% !important;
+  }
+  .color-4 {
+    border-radius: 50% !important;
+  }
+  .color-5 {
+    border-radius: 50% !important;
+  }
+}

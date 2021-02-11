@@ -125,13 +125,18 @@ $(document).ready(function () {
     $(".product-size-options .single-option").removeClass("selected-custom");
     $(this).addClass("selected-custom");
   });
+  $(".product-size .product-size-options .single-option").click(function () {
+    $(".product-size .product-size-options .single-option").removeClass("premium-selected-custom");
+    $(this).addClass("premium-selected-custom");
+  });
   $(".style-custom-options .single-option").click(function () {
     $(".style-custom-options .single-option").removeClass("selected-custom");
     $(this).addClass("selected-custom");
   });
-  $(".color-options .single-option").click(function () {
-    $(".color-options .single-option").removeClass("selected");
-    $(this).addClass("selected");
+  
+  $(".product-detials .product-summary .colors-selection .premium-color").click(function () {
+    $(".product-detials .product-summary .colors-selection .premium-color").removeClass("premium-color-selected");
+    $(this).addClass("premium-color-selected");
   });
   $(".custom-product-option").click(function () {
     $(this).toggleClass("selected-custom");

@@ -21,12 +21,6 @@
 @import "./layout/main";
 @import "./layout/responsive";
 
-//Themes
-@import "./premium-themes/homepage";
-@import "./premium-themes/category";
-@import "./premium-themes/seach";
-@import "./premium-themes/categories-page";
-
 //PAGES
 @import "./pages/homepage"; 
 @import "./pages/category-page"; 
@@ -51,3 +45,11 @@
 @import "./pages/category-page-theme-6";
 @import "./pages/sign-in";
  
+
+//Themes
+@import "./premium-themes/homepage";
+@import "./premium-themes/category";
+@import "./premium-themes/seach";
+@import "./premium-themes/categories-page";
+
+

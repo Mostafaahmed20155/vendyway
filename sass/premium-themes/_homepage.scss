@@ -917,3 +917,25 @@
     border-radius: 50% !important;
   }
 }
+
+.premium-selected-custom {
+  color: white !important;
+  background-color: #AC9B81 !important;
+  border: none;
+  .size-title {
+    color: white;
+  }
+
+}.premium-color {
+  input {
+    display: none
+  }
+}
+
+.premium-color-selected {
+  border: 2px solid black;
+  padding: 1rem;
+  // padding: 1rem;
+  outline-offset: 2.5px;
+  border-radius: 50%;
+}

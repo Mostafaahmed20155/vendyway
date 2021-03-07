@@ -450,6 +450,14 @@
   }
 }
 
+#premium-themes-3-caresoul .flickity-viewport {
+  height: 30rem !important;
+  padding-top: 1rem;
+  .premium-product-slider-3 {
+    margin-right: 2rem;
+  }
+}
+
 .premium-theme-3-popular-categories {
   .title-cont {
     display: flex;
@@ -462,6 +470,7 @@
   .premium-theme-3-categories {
     padding-left: 1.5rem;
     .premium-theme-3-single-category {
+      margin-right: 1.5rem;
       .cover-slider {
         background-image: url("../../img/cate1.jpg");
         border-radius: 1.5rem;

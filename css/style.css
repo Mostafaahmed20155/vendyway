@@ -2380,6 +2380,12 @@ body {
       .premium-product-slider-3 .premium-3-product-details .premium-3-product-info .premium-3-product-name {
         font-weight: 500; }
 
+#premium-themes-3-caresoul .flickity-viewport {
+  height: 30rem !important;
+  padding-top: 1rem; }
+  #premium-themes-3-caresoul .flickity-viewport .premium-product-slider-3 {
+    margin-right: 2rem; }
+
 .premium-theme-3-popular-categories .title-cont {
   display: flex;
   padding: 1.5rem;
@@ -2390,40 +2396,42 @@ body {
 
 .premium-theme-3-popular-categories .premium-theme-3-categories {
   padding-left: 1.5rem; }
-  .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider {
-    background-image: url("../../img/cate1.jpg");
-    border-radius: 1.5rem;
-    width: 25rem;
-    height: 10rem;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover {
-      width: 100%;
-      height: 100%;
-      padding: 1.5rem;
+  .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category {
+    margin-right: 1.5rem; }
+    .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider {
+      background-image: url("../../img/cate1.jpg");
       border-radius: 1.5rem;
-      background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      justify-content: center; }
-      .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .img-title {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1.8rem;
-        font-weight: 500;
-        color: #ffffff;
-        line-height: 2.5rem; }
-      .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination {
-        display: flex; }
-        .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination .dot {
-          width: 1rem;
-          height: 0.5rem;
-          background-color: #ffffff;
-          border-radius: 2rem; }
-          .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination .dot:not(:last-of-type) {
-            margin-right: 0.5rem; }
-        .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination .img-selected {
-          width: 1.8rem; }
+      width: 25rem;
+      height: 10rem;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover {
+        width: 100%;
+        height: 100%;
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.4));
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center; }
+        .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .img-title {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 1.8rem;
+          font-weight: 500;
+          color: #ffffff;
+          line-height: 2.5rem; }
+        .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination {
+          display: flex; }
+          .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination .dot {
+            width: 1rem;
+            height: 0.5rem;
+            background-color: #ffffff;
+            border-radius: 2rem; }
+            .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination .dot:not(:last-of-type) {
+              margin-right: 0.5rem; }
+          .premium-theme-3-popular-categories .premium-theme-3-categories .premium-theme-3-single-category .cover-slider .gradient-cover .pagination .img-selected {
+            width: 1.8rem; }
 
 .premium-theme-3-products-list .title-cont {
   display: flex;

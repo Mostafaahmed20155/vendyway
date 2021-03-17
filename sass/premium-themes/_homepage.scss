@@ -336,6 +336,7 @@
   width: 100%;
   padding: 1.5rem;
   padding-top: 0;
+  margin-top: 1rem;
   .search-cont {
     display: flex;
     align-items: stretch;
@@ -947,4 +948,223 @@
   // padding: 1rem;
   outline-offset: 2.5px;
   border-radius: 50%;
+}
+
+
+.premium-products-slider-theme-4 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 1rem;
+  .single-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1.5rem;
+    .icon-box {
+      width: 5.6rem;
+      height: 5.6rem;
+      border-radius: 1rem;
+      background-color: #F1F1F1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.5rem;
+    }
+    .category-name {
+      @include Montserrat(1.5rem,600);
+    }
+  }
+}
+
+.premium-theme-4-products-list {
+  .title-cont {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .products-list {
+    padding: 1.5rem;
+    padding-top: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .premium-product-4 {
+    width: 47.5%;
+    min-height: 24rem;
+    background-color: #ffffff;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    background-color: #F8F8F8;
+    padding: 1rem;
+    .product-img-box {
+      width: 100%;
+      border-radius: 1.5rem;
+      position: relative;
+      img {
+        width: 100%;
+        border-radius: 1.5rem;
+      }
+      .discount {
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        background-color: #FF944D;
+        color: #fff;
+        @include Montserrat(1.2rem, 600);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+      }
+    }
+    .premium-4-product-details {
+      display: flex;
+      img {
+        width: 3.3rem;
+        margin-left: auto;
+      }
+      .premium-4-product-info {
+        display: flex;
+        flex-direction: column;
+        .premium-4-product-name {
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+}
+
+.product-pic-theme-4 {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  .pagination {
+    left: 5% !important;
+    bottom: 5% !important;
+  }
+  .product-img-premium {
+    border-radius: 1rem;
+    height: 30rem;
+  }
+}
+.product-mini-img {
+  width: 7.6rem;
+  height: 7.2rem;
+  object-fit: cover;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+.premium-product-summary-theme-4 {
+  margin-top:0 !important;
+}
+
+.store-logo-5 {
+  margin-right: auto;
+  width: 12rem;
+}
+
+.premium-sidebar-btn-5 {
+  background-color: #26285D;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+
+.premium-product-card-5 {
+  width: 47.5%;
+  // min-height: 24rem;
+  background-color: #ffffff;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
+  background-color: #F8F8F8;
+  padding: 1rem;
+  .product-img-box {
+    width: 100%;
+    border-radius: 1.5rem;
+    position: relative;
+    img {
+      width: 100%;
+      border-radius: 1.5rem;
+    }
+    .discount {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      background-color: #FF944D;
+      color: #fff;
+      @include Montserrat(1.2rem, 600);
+      padding: 0.5rem;
+      border-radius: 0.5rem;
+    }
+  }
+  .premium-4-product-details {
+    display: flex;
+    img {
+      width: 3.3rem;
+      margin-left: auto;
+    }
+    .premium-4-product-info {
+      display: flex;
+      flex-direction: column;
+      .premium-4-product-name {
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+.premium-products-5 {
+  padding-top: 0;
+}
+.selected-category-5 {
+  background-color: #FF8533;
+  color: #FFFFFF;
+}
+
+.navigation-bar {
+  height: 7rem;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 -6px 60px rgba($color: #000000, $alpha: 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #26285D;
+}
+
+.navigation-bar-2 {
+  height: 7rem;
+  width: 100%;
+  position: sticky;
+  bottom: 0;
+  box-shadow: 0 -6px 60px rgba($color: #000000, $alpha: 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #FFFFFF;
+  a .navigation-bar-sub-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+      color: #B1B1B1;
+    }
+    .selected-h2 {
+      color: #26285D;
+    }
+    img {
+      width: 75%;
+      margin-top: 0.5rem;
+    }
+    .icon-3 {
+      width: 40%;
+    }
+    .icon-4 {
+      width: 50%;
+    }
+  }
 }

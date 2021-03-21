@@ -2263,8 +2263,8 @@ body {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-gap: 1rem;
-  -webkit-column-gap: 2rem;
-  -moz-column-gap: 2rem;
+  -webkit-column-gap: 1rem;
+  -moz-column-gap: 1rem;
   display: block; }
 
 #mansory-card {
@@ -2613,6 +2613,8 @@ body {
 
 .premium-buy-now-cont {
   background-color: #474141;
+  width: 98% !important;
+  margin-left: 1%;
   border-radius: 1.5rem;
   bottom: 1% !important; }
   .premium-buy-now-cont .total-price-title {
@@ -2823,10 +2825,10 @@ body {
   justify-content: space-between; }
 
 .premium-theme-4-products-list .premium-product-4 {
-  width: 47.5%;
+  width: 48.5%;
   min-height: 24rem;
   background-color: #ffffff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
   background-color: #F8F8F8;
   padding: 1rem; }
@@ -2891,7 +2893,7 @@ body {
 .premium-product-card-5 {
   width: 47.5%;
   background-color: #ffffff;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   border-radius: 1rem;
   background-color: #F8F8F8;
   padding: 1rem; }
@@ -2967,6 +2969,27 @@ body {
       width: 40%; }
     .navigation-bar-2 a .navigation-bar-sub-cont .icon-4 {
       width: 50%; }
+
+.selection-premium-theme-5 {
+  width: fit-content !important; }
+
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px; }
 
 .page-title {
   font-family: 'Montserrat', sans-serif;

@@ -2991,6 +2991,93 @@ select:focus,
 textarea {
   font-size: 16px; }
 
+.theme-6-slider {
+  width: 100%;
+  margin: 0 1rem; }
+  .theme-6-slider img {
+    width: 100%; }
+
+.premium-selection-6 {
+  padding: 1rem 1.5rem !important;
+  border-radius: 2rem !important; }
+
+.premium-selection-6-selected {
+  color: #FFF;
+  background-color: #62575F;
+  border: none; }
+
+.premium-products-theme-6 {
+  margin-bottom: 0 !important; }
+
+.title-cont-theme-6 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important; }
+
+.premium-6-button {
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  border: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  background-color: #F5B8C0;
+  color: #FFF; }
+
+.premium-product-6 {
+  padding: 0.5rem !important;
+  background-color: #FFF !important;
+  box-shadow: 0px 0.3rem 2rem rgba(0, 0, 0, 0.12); }
+
+.premium-theme-4-products-list .premium-product-6 .product-img-box img {
+  border-radius: 0.5rem !important;
+  height: 25rem !important; }
+
+.premium-theme-4-products-list .premium-product-6 .premium-4-product-details .premium-4-product-info {
+  margin-left: 0.5rem; }
+
+.premium-theme-4-products-list .premium-product-6 .premium-4-product-details img {
+  margin-right: 0.5rem; }
+
+.premium-theme-4-products-list .premium-product-4 .product-img-box .discount-theme-6 {
+  background-color: #F5B8C0; }
+
+.premium-theme-6-products-list {
+  background-color: #FEF8F9;
+  border-radius: 1.5rem 1.5rem 0 0; }
+
+.navigation-bar-6 a .navigation-bar-sub-cont img {
+  width: unset !important; }
+
+.store-logo-6 {
+  width: 8rem; }
+
+.premium-6-side-nav {
+  background-image: url(../../img/NoPath.png); }
+
+.premium-categories .premium-category-6 {
+  height: 30rem !important; }
+
+.premium-categories .boy {
+  background-image: url(../../img/boy.png) !important; }
+
+.premium-categories .girl {
+  background-image: url(../../img/girl.png) !important; }
+
+.premium-categories .baby {
+  background-image: url(../../img/baby.png) !important; }
+
+.premium-categories .premium-category-6 {
+  height: 30rem !important; }
+
+.product-detials .product-btns a {
+  width: 100%; }
+
+.product-detials .product-btns .add-to-cart {
+  width: 97% !important; }
+
+.product-detials .product-btns .buy-now {
+  width: 100% !important; }
+
 .page-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;

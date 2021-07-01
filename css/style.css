@@ -3078,6 +3078,18 @@ textarea {
 .product-detials .product-btns .buy-now {
   width: 100% !important; }
 
+.premium-header .cart-icon {
+  margin-left: 1rem; }
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info {
+  align-items: center; }
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating h2 {
+  margin-right: 1rem; }
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
+  margin-right: 1rem; }
+
 .page-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;

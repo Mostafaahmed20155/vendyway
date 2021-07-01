@@ -1295,3 +1295,74 @@ textarea {
 .product-detials .product-btns .buy-now {
   width: 100% !important;
 }
+
+.premium-header .premium-nav-bar {
+  direction: rtl;
+}
+
+.premium-back-btn {
+  transform: rotateY(180deg);
+}
+
+.page-title {
+  margin-left: auto !important;
+  margin-right: 2.5rem !important;
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.premium-header .cart-icon {
+  margin-left: 1rem;
+}
+
+.premium-categories .premium-category .gradient-cover .img-title {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.premium-categories .premium-category .gradient-cover .img-title span {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .img-title {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info {
+  align-items: center;
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating h2 {
+  margin-right: 1rem;
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
+  margin-right: 1rem;
+}
+
+.branch-info .working-hours-title {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .working-hours-value {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .working-schedule .working-schedule-detaisl .working-days-title {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .working-schedule .working-schedule-detaisl .working-days-value {
+  font-family: 'Cairo', sans-serif !important; 
+}
+
+.branch-info .working-schedule .contact-icons .ico-dir {
+  margin-right: 2rem;
+  margin-left: 0 !important; 
+}
+
+.branch-info .open-closed {
+  font-family: 'Cairo', sans-serif !important; 
+}

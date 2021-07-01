@@ -585,3 +585,232 @@ body {
 body {
   scroll-behavior: smooth;
 }
+
+.premium-back-btn {
+  transform: rotateY(180deg);
+}
+
+.page-title {
+  margin-left: auto;
+  margin-right: 2.5rem;
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .img-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating h2 {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .working-hours-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .working-hours-value {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .open-closed {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .working-schedule .working-schedule-detaisl .working-days-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .working-schedule .working-schedule-detaisl .working-days-value {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.branch-info .working-schedule .contact-icons .ico-dir {
+  margin-left: 0;
+  margin-right: 2rem;
+}
+
+.premium-categories .premium-category .gradient-cover .img-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-categories .premium-category .gradient-cover .img-title span {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.delievery-method .delievery-btn {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.delievery-method .car-pickup-btn {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.checkout-form .contact-information input {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.checkout-form .contact-information .google-maps {
+  font-family: "Cairo", sans-serif !important;
+  direction: ltr;
+}
+
+.buy-now-cont a .buy-now {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.buy-now-cont a .buy-now img{
+  transform: rotateY(180deg);
+}
+
+.checkout-form .contact-information label {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.buy-now-cont .total-price-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.buy-now-cont .total-price-value {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.checkout-form .intro-paragraph {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-cart-products .cart-single-product .product-img {
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+.premium-cart-products .cart-single-product .product-details .prod-name {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-cart-products .cart-single-product .product-details .prod-price {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .order-info-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .sub-tot-cont .subtotal-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .shipping-cost-cont .shipping-cost-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .total-cont .total-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .sub-tot-cont .subtotal-value {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .shipping-cost-cont .shipping-cost-value {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.order-info .total-cont .total-value {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-theme-4-products-list .premium-product-4 .premium-4-product-details img {
+  margin-left: unset;
+  margin-right: auto;
+}
+
+.premium-theme-4-products-list .premium-product-6 .premium-4-product-details .premium-4-product-info {
+  margin-left: unset;
+  margin-right: 0.5rem;
+}
+
+.premium-theme-4-products-list .premium-product-4 .premium-4-product-details .premium-4-product-info .premium-4-product-name {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-theme-4-products-list .premium-product-4 .premium-4-product-details .premium-4-product-info .premium-4-product-price {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-theme-4-products-list .premium-product-4 .product-img-box .discount-theme-6 {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-products .selections-slider .selection {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-selection-6 {
+  border-radius: 4rem !important;
+}
+
+.product-detials .product-summary .product-name {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-detials .product-summary .product-price {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-detials .product-summary .product-description {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-detials .product-summary .color-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-detials .product-btns .add-to-cart {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.product-detials .product-btns .buy-now {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.search-form .search-cont input {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-family: "Cairo", sans-serif !important;
+}
+
+.title-cont .premium-theme-title {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-6-button {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-3-side-nav .premium-profile-cont__info .premium-profile-pic-box {
+  width: 4.5rem;
+  height: 4.5rem;
+  margin-right: 0;
+  margin-left: 1.5rem;
+}
+
+.premium-3-side-nav .premium-profile-cont__info .premium-profile-details .premium-profile-name {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.premium-3-side-nav .premium-profile-cont__info .premium-profile-details .premium-customer {
+  font-family: "Cairo", sans-serif !important;
+}
+
+.sidenav a .side-bar__selection {
+  direction: rtl;
+  margin-right: 0;
+  margin-left: 5rem;
+}
+
+.checkout-form .contact-information .or-title {
+  font-family: "Cairo", sans-serif !important;
+}

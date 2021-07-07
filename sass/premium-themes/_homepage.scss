@@ -763,7 +763,7 @@
 }
 
 .premium-3-side-nav {
-  background-image: url("../../img/side-nav-bg.svg");
+  // background-image: url("../../img/side-nav-bg.svg");
   background-position: bottom;
   background-repeat: no-repeat;
   .premium-profile-cont {
@@ -1265,7 +1265,7 @@ textarea {
 }
 
 .premium-6-side-nav {
-  background-image: url(../../img/NoPath.png);
+  // background-image: url(../../img/NoPath.png);
 }
 
 .premium-categories .premium-category-6 {
@@ -1296,77 +1296,6 @@ textarea {
   width: 100% !important;
 }
 
-// .premium-header .premium-nav-bar {
-//   direction: rtl;
-// }
-
-// .premium-back-btn {
-//   transform: rotateY(180deg);
-// }
-
-// .page-title {
-//   margin-left: auto !important;
-//   margin-right: 2.5rem !important;
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .premium-header .cart-icon {
-//   margin-left: 1rem;
-// }
-
-// .premium-categories .premium-category .gradient-cover .img-title {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .premium-categories .premium-category .gradient-cover .img-title span {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .branch-pic .cover-slider .gradient-cover .img-title {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .branch-pic .cover-slider .gradient-cover .more-info {
-//   align-items: center;
-// }
-
-// .branch-info .branch-pic .cover-slider .gradient-cover .more-info .branch-rating h2 {
-//   margin-right: 1rem;
-// }
-
-// .branch-info .branch-pic .cover-slider .gradient-cover .more-info .distance {
-//   margin-right: 1rem;
-// }
-
-// .branch-info .working-hours-title {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .working-hours-value {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .working-schedule .working-schedule-detaisl .working-days-title {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .working-schedule .working-schedule-detaisl .working-days-value {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
-// .branch-info .working-schedule .contact-icons .ico-dir {
-//   margin-right: 2rem;
-//   margin-left: 0 !important; 
-// }
-
-// .branch-info .open-closed {
-//   font-family: 'Cairo', sans-serif !important; 
-// }
-
 .langauge-swifter {
   color: #969393;
   font-family: 'Montserrat', sans-serif;
@@ -1375,4 +1304,9 @@ textarea {
   background-color: #e8e8e8;
   border-radius: 1rem;
   padding: 0.5rem 1rem;
+}
+
+.powered-by {
+  margin-top: auto;
+  margin-bottom: 4rem;
 }

@@ -3097,6 +3097,88 @@ textarea {
   margin-bottom: 2rem;
   margin-top: 2rem; }
 
+.premium-theme-6-orders {
+  width: 100%;
+  min-height: 3rem;
+  box-shadow: 0 6px 3rem rgba(0, 0, 0, 0.08);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  margin-bottom: 1rem; }
+  .premium-theme-6-orders .date {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #B3B3B3; }
+  .premium-theme-6-orders .title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 0.5rem; }
+  .premium-theme-6-orders .crit-info {
+    display: flex; }
+    .premium-theme-6-orders .crit-info .amount-cont {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem;
+      margin-right: 3rem; }
+      .premium-theme-6-orders .crit-info .amount-cont .amount-title {
+        color: #78ADBC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500; }
+      .premium-theme-6-orders .crit-info .amount-cont .amount-value {
+        margin-left: 1rem;
+        background-color: #F2F1F1;
+        padding: 4px 8px;
+        border-radius: 3px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 600; }
+    .premium-theme-6-orders .crit-info .status-cont {
+      display: flex;
+      align-items: center;
+      margin-top: 1rem; }
+      .premium-theme-6-orders .crit-info .status-cont .status-title {
+        color: #78ADBC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500; }
+      .premium-theme-6-orders .crit-info .status-cont .status-value {
+        margin-left: 1rem;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1.3rem;
+        font-weight: 500;
+        padding: 4px 8px;
+        border-radius: 3px; }
+
+.pending-payment-status {
+  background-color: #9EA7AD;
+  color: #FFF; }
+
+.pending-status {
+  background-color: #FCE83A;
+  color: #FFF; }
+
+.approved-status {
+  background-color: #56F000;
+  color: #FFF; }
+
+.preparing-status {
+  background-color: #2DCCFF;
+  color: #FFF; }
+
+.delivering-status {
+  background-color: #009689;
+  color: #FFF; }
+
+.delivered-status {
+  background-color: #1F8D60;
+  color: #FFF; }
+
+.done-status {
+  background-color: #251F30;
+  color: #FFF; }
+
 .page-title {
   font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
